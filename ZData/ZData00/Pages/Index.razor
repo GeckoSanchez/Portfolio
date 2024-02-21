@@ -1,0 +1,21 @@
+﻿@page "/"
+@page "/Home"
+
+@try
+{
+	<p>
+		@ID.ToJSON(Formatting.Indented)
+	</p>
+}
+catch (IDException ex)
+{
+	@($"IDException: {ex.Message}")
+}
+catch (BaseException ex)
+{
+	@($"BaseException: {ex.Message}")
+}
+catch (Exception ex)
+{
+	@($"Exception: {ex.Message}")
+}

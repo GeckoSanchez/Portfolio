@@ -1,0 +1,6 @@
+[22:51:02.002552] The given type ('ZData00.Enums.ObjectType:Object') could not be used to create an id (Block: 'Index' constructor, Location: 'Pages/Index.razor.cs', Line: #17)
+[22:51:02.899758] The given type ('ZData00.Enums.ObjectType:Object') could not be used to create an id (Block: 'Index' constructor, Location: 'Pages/Index.razor.cs', Line: #17)
+[22:51:22.021820] The given type ('ZData00.Enums.ObjectType:Object') could not be used to create an id (Block: 'Index' constructor, Location: 'Pages/Index.razor.cs', Line: #17)
+[22:51:22.467637] The given type ('ZData00.Enums.ObjectType:Object') could not be used to create an id (Block: 'Index' constructor, Location: 'Pages/Index.razor.cs', Line: #17)
+[22:53:00.955414] The given type ('ZData00.Enums.ObjectType:Object') could not be used to create an id (Block: 'Index' constructor, Location: 'Pages/Index.razor.cs', Line: #16)
+[22:53:01.496138] The given type ('ZData00.Enums.ObjectType:Object') could not be used to create an id (Block: 'Index' constructor, Location: 'Pages/Index.razor.cs', Line: #16)

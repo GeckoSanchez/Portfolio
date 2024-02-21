@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ZData00.props" />
+</Project>

@@ -1,0 +1,123 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Storage\**" />
+    <Content Remove="Storage\**" />
+    <EmbeddedResource Remove="Storage\**" />
+    <None Remove="Storage\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Code\Properties\" />
+    <Folder Include="Code\Objects\" />
+    <Folder Include="Code\Names\" />
+    <Folder Include="Code\Links\" />
+    <Folder Include="Code\Interfaces\" />
+    <Folder Include="Code\IDs\" />
+    <Folder Include="Code\Identities\" />
+    <Folder Include="Code\Devices\" />
+    <Folder Include="Code\Categories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\Prog\CSharp\ZData\ZData00\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\Prog\CSharp\ZData\ZData00\.editorconfig" />
+    <None Include="wwwroot\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\bootstrap\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.esm.js" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\svg\add.svg" />
+    <None Include="wwwroot\svg\binary.svg" />
+    <None Include="wwwroot\svg\black-light-bulb.svg" />
+    <None Include="wwwroot\svg\boolean.svg" />
+    <None Include="wwwroot\svg\calendar.svg" />
+    <None Include="wwwroot\svg\cd.svg" />
+    <None Include="wwwroot\svg\celsius.svg" />
+    <None Include="wwwroot\svg\connected.svg" />
+    <None Include="wwwroot\svg\coordinate.svg" />
+    <None Include="wwwroot\svg\database.svg" />
+    <None Include="wwwroot\svg\desktop-pc.svg" />
+    <None Include="wwwroot\svg\disconnected.svg" />
+    <None Include="wwwroot\svg\document.svg" />
+    <None Include="wwwroot\svg\dollar.svg" />
+    <None Include="wwwroot\svg\download.svg" />
+    <None Include="wwwroot\svg\euro.svg" />
+    <None Include="wwwroot\svg\expand.svg" />
+    <None Include="wwwroot\svg\fahrenheit.svg" />
+    <None Include="wwwroot\svg\female.svg" />
+    <None Include="wwwroot\svg\image.svg" />
+    <None Include="wwwroot\svg\internet.svg" />
+    <None Include="wwwroot\svg\laptop.svg" />
+    <None Include="wwwroot\svg\link.svg" />
+    <None Include="wwwroot\svg\locked.svg" />
+    <None Include="wwwroot\svg\mail.svg" />
+    <None Include="wwwroot\svg\male.svg" />
+    <None Include="wwwroot\svg\microphone.svg" />
+    <None Include="wwwroot\svg\monitor.svg" />
+    <None Include="wwwroot\svg\mouse.svg" />
+    <None Include="wwwroot\svg\network.svg" />
+    <None Include="wwwroot\svg\next.svg" />
+    <None Include="wwwroot\svg\number.svg" />
+    <None Include="wwwroot\svg\phone.svg" />
+    <None Include="wwwroot\svg\power.svg" />
+    <None Include="wwwroot\svg\previous.svg" />
+    <None Include="wwwroot\svg\printer.svg" />
+    <None Include="wwwroot\svg\question-mark.svg" />
+    <None Include="wwwroot\svg\remove.svg" />
+    <None Include="wwwroot\svg\save.svg" />
+    <None Include="wwwroot\svg\search.svg" />
+    <None Include="wwwroot\svg\security.svg" />
+    <None Include="wwwroot\svg\source1-SVGs.url" />
+    <None Include="wwwroot\svg\string.svg" />
+    <None Include="wwwroot\svg\tablet.svg" />
+    <None Include="wwwroot\svg\unlocked.svg" />
+    <None Include="wwwroot\svg\up.svg" />
+    <None Include="wwwroot\svg\upload.svg" />
+    <None Include="wwwroot\svg\user-alt.svg" />
+    <None Include="wwwroot\svg\user-alt2.data" />
+    <None Include="wwwroot\svg\user-alt2.svg" />
+    <None Include="wwwroot\svg\user.svg" />
+    <None Include="wwwroot\svg\white-light-bulb.svg" />
+    <None Include="wwwroot\svg\wifi.svg" />
+    <None Include="wwwroot\svg\yen.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MessagePack" Version="2.5.140" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
