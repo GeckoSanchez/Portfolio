@@ -1,0 +1,17 @@
+﻿@page "/"
+@page "/Home"
+@page "/{ID}"
+@page "/Home/{ID}"
+
+@try
+{
+	@Generate.DeviceName()
+}
+catch (Bases.BaseException ex)
+{
+	@($"Base Exception: {ex}")
+}
+catch (Exception ex)
+{
+	@($"Exception: {ex.Message}")
+}

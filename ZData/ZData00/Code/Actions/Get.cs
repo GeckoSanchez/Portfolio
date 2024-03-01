@@ -73,7 +73,7 @@
 						Out = Enums.BlockType.Init_Operator;
 					else if (method.IsConstructor && method.GetParameters().Length == 0)
 						Out = Enums.BlockType.Empty_Constructor;
-					else if (method.IsConstructor && (method.GetCustomAttribute<JsonConstructorAttribute>(false) != null || method.GetCustomAttribute<PrimaryConstructorAttribute>(false) != null))
+					else if (method.IsConstructor && (method.GetCustomAttribute<JsonConstructorAttribute>(false) != null || method.GetCustomAttribute<MainConstructorAttribute>(false) != null))
 						Out = Enums.BlockType.Primary_Constructor;
 					else if (method.Attributes.HasFlag(MethodAttributes.CheckAccessOnOverride))
 						Out = Enums.BlockType.Constructor;

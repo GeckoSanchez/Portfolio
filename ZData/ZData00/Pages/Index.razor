@@ -1,15 +1,15 @@
 ﻿@page "/"
 @page "/Home"
+@page "/Home/{ID}"
 
 @try
 {
 	<p>
-		@ID.ToJSON(Formatting.Indented)
+		@Cellphone.ToJSON(Formatting.Indented)
 	</p>
-}
-catch (IDException ex)
-{
-	@($"IDException: {ex.Message}")
+	<a class="btn btn-primary" href="https://phonevalidation.abstractapi.com/v1/?api_key=efe9fa564e9d4ac3a4ceb7a9c52a02df&phone=5148388430">
+		CALL API
+	</a>
 }
 catch (BaseException ex)
 {

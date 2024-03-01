@@ -1,0 +1,4 @@
+[17:31:52.125020] <Page> Cannot access a closed file. (Location: 'Pages/Index.razor.cs', Line: #63)
+[18:23:31.609754] <Page> Cannot access a closed file. (Location: 'Pages/Index.razor.cs', Line: #63)
+[18:25:01.915023] <Page> Cannot access a closed file. (Location: 'Pages/Index.razor.cs', Line: #63)
+[18:30:13.028512] <Page> Cannot access a closed file. (Location: 'Pages/Index.razor.cs', Line: #64)

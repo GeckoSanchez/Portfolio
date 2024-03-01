@@ -1,0 +1,869 @@
+Afar (Djibouti): ZZZ | aar
+Afar (Eritrea): ZZZ | aar
+Afar (Ethiopia): ZZZ | aar
+Afar: ZZZ | aar
+Afrikaans (Namibia): ZZZ | afr
+Afrikaans (South Africa): AFK | afr
+Afrikaans: AFK | afr
+Aghem (Cameroon): ZZZ | agq
+Aghem: ZZZ | agq
+Akan (Ghana): ZZZ | aka
+Akan: ZZZ | aka
+Albanian (Albania): SQI | sqi
+Albanian (Kosovo): ZZZ | sqi
+Albanian (North Macedonia): ZZZ | sqi
+Albanian: SQI | sqi
+Amharic (Ethiopia): AMH | amh
+Amharic: AMH | amh
+Arabic (Algeria): ARG | ara
+Arabic (Bahrain): ARH | ara
+Arabic (Chad): ZZZ | ara
+Arabic (Comoros): ZZZ | ara
+Arabic (Djibouti): ZZZ | ara
+Arabic (Egypt): ARE | ara
+Arabic (Eritrea): ZZZ | ara
+Arabic (Iraq): ARI | ara
+Arabic (Israel): ZZZ | ara
+Arabic (Jordan): ARJ | ara
+Arabic (Kuwait): ARK | ara
+Arabic (Lebanon): ARB | ara
+Arabic (Libya): ARL | ara
+Arabic (Mauritania): ZZZ | ara
+Arabic (Morocco): ARM | ara
+Arabic (Oman): ARO | ara
+Arabic (Palestinian Authority): ZZZ | ara
+Arabic (Qatar): ARQ | ara
+Arabic (Saudi Arabia): ARA | ara
+Arabic (Somalia): ZZZ | ara
+Arabic (South Sudan): ZZZ | ara
+Arabic (Sudan): ZZZ | ara
+Arabic (Syria): ARS | ara
+Arabic (Tunisia): ART | ara
+Arabic (United Arab Emirates): ARU | ara
+Arabic (World): ZZZ | ara
+Arabic (Yemen): ARY | ara
+Arabic: ARA | ara
+Armenian (Armenia): HYE | hye
+Armenian: HYE | hye
+Assamese (India): ASM | asm
+Assamese: ASM | asm
+Asturian (Spain): ZZZ | ast
+Asturian: ZZZ | ast
+Asu (Tanzania): ZZZ | asa
+Asu: ZZZ | asa
+Azerbaijani (Cyrillic): AZC | aze
+Azerbaijani (Cyrillic, Azerbaijan): AZC | aze
+Azerbaijani (Latin): AZE | aze
+Azerbaijani (Latin, Azerbaijan): AZE | aze
+Azerbaijani: AZE | aze
+Bafia (Cameroon): ZZZ | ksf
+Bafia: ZZZ | ksf
+Bamanankan (Mali): ZZZ | bam
+Bamanankan: ZZZ | bam
+Bangla (Bangladesh): BNB | ben
+Bangla (India): BNG | ben
+Bangla: BNB | ben
+Basaa (Cameroon): ZZZ | bas
+Basaa: ZZZ | bas
+Bashkir (Russia): BAS | bak
+Bashkir: BAS | bak
+Basque (Spain): EUQ | eus
+Basque: EUQ | eus
+Belarusian (Belarus): BEL | bel
+Belarusian: BEL | bel
+Bemba (Zambia): ZZZ | bem
+Bemba: ZZZ | bem
+Bena (Tanzania): ZZZ | bez
+Bena: ZZZ | bez
+Blin (Eritrea): ZZZ | byn
+Blin: ZZZ | byn
+Bodo (India): ZZZ | brx
+Bodo: ZZZ | brx
+Bosnian (Cyrillic): BSC | bos
+Bosnian (Cyrillic, Bosnia & Herzegovina): BSC | bos
+Bosnian (Latin): BSB | bos
+Bosnian (Latin, Bosnia & Herzegovina): BSB | bos
+Bosnian: BSB | bos
+Breton (France): BRE | bre
+Breton: BRE | bre
+Bulgarian (Bulgaria): BGR | bul
+Bulgarian: BGR | bul
+Burmese (Myanmar): MYA | mya
+Burmese: MYA | mya
+Catalan (Andorra): ZZZ | cat
+Catalan (France): ZZZ | cat
+Catalan (Italy): ZZZ | cat
+Catalan (Spain): CAT | cat
+Catalan: CAT | cat
+Cebuano (Philippines): ZZZ | ceb
+Cebuano: ZZZ | ceb
+Central Atlas Tamazight (Algeria): ZZZ | tzm
+Central Atlas Tamazight (Arabic): ZZZ | tzm
+Central Atlas Tamazight (Arabic, Morocco): ZZZ | tzm
+Central Atlas Tamazight (Morocco): ZZZ | tzm
+Central Atlas Tamazight (Tifinagh): TZM | tzm
+Central Atlas Tamazight (Tifinagh, Morocco): TZM | tzm
+Central Atlas Tamazight: TZA | tzm
+Central Kurdish (Iran): ZZZ | ckb
+Central Kurdish (Iraq): ZZZ | ckb
+Central Kurdish: ZZZ | ckb
+Chakma (Bangladesh): ZZZ | ccp
+Chakma (India): ZZZ | ccp
+Chakma: ZZZ | ccp
+Chechen (Russia): ZZZ | che
+Chechen: ZZZ | che
+Cherokee (United States): ZZZ | chr
+Cherokee: CRE | chr
+Chiga (Uganda): ZZZ | cgg
+Chiga: ZZZ | cgg
+Chinese (Simplified): CHS | zho
+Chinese (Simplified, China): ZZZ | zho
+Chinese (Simplified, Hong Kong SAR): ZZZ | zho
+Chinese (Simplified, Macao SAR): ZZZ | zho
+Chinese (Simplified, Singapore): ZZZ | zho
+Chinese (Traditional): ZHH | zho
+Chinese (Traditional, Hong Kong SAR): ZZZ | zho
+Chinese (Traditional, Macao SAR): ZZZ | zho
+Chinese (Traditional, Taiwan): ZZZ | zho
+Chinese: CHS | zho
+Church Slavic (Russia): ZZZ | chu
+Church Slavic: ZZZ | chu
+Colognian (Germany): ZZZ | ksh
+Colognian: ZZZ | ksh
+Cornish (United Kingdom): ZZZ | cor
+Cornish: ZZZ | cor
+Corsican (France): COS | cos
+Corsican: COS | cos
+Croatian (Bosnia & Herzegovina): HRB | hrv
+Croatian (Croatia): HRV | hrv
+Croatian: HRV | hrv
+Czech (Czechia): CSY | ces
+Czech: CSY | ces
+Danish (Denmark): DAN | dan
+Danish (Greenland): ZZZ | dan
+Danish: DAN | dan
+Divehi (Maldives): DIV | div
+Divehi: DIV | div
+Dogri (India): ZZZ | doi
+Dogri: ZZZ | doi
+Duala (Cameroon): ZZZ | dua
+Duala: ZZZ | dua
+Dutch (Aruba): ZZZ | nld
+Dutch (Belgium): NLB | nld
+Dutch (Bonaire, Sint Eustatius and Saba): ZZZ | nld
+Dutch (Curaçao): ZZZ | nld
+Dutch (Netherlands): NLD | nld
+Dutch (Sint Maarten): ZZZ | nld
+Dutch (Suriname): ZZZ | nld
+Dutch: NLD | nld
+Dzongkha (Bhutan): ZZZ | dzo
+Dzongkha: ZZZ | dzo
+Edo (Nigeria): ZZZ | bin
+Edo: ZZZ | bin
+Embu (Kenya): ZZZ | ebu
+Embu: ZZZ | ebu
+English (American Samoa): ZZZ | eng
+English (Anguilla): ZZZ | eng
+English (Antigua & Barbuda): ZZZ | eng
+English (Australia): ENA | eng
+English (Austria): ZZZ | eng
+English (Bahamas): ZZZ | eng
+English (Barbados): ZZZ | eng
+English (Belgium): ZZZ | eng
+English (Belize): ENL | eng
+English (Bermuda): ZZZ | eng
+English (Botswana): ZZZ | eng
+English (British Indian Ocean Territory): ZZZ | eng
+English (British Virgin Islands): ZZZ | eng
+English (Burundi): ZZZ | eng
+English (Cameroon): ZZZ | eng
+English (Canada): ENC | eng
+English (Caribbean): ENB | eng
+English (Cayman Islands): ZZZ | eng
+English (Christmas Island): ZZZ | eng
+English (Cocos [Keeling] Islands): ZZZ | eng
+English (Cook Islands): ZZZ | eng
+English (Cyprus): ZZZ | eng
+English (Denmark): ZZZ | eng
+English (Dominica): ZZZ | eng
+English (Eritrea): ZZZ | eng
+English (Eswatini): ZZZ | eng
+English (Europe): ZZZ | eng
+English (Falkland Islands): ZZZ | eng
+English (Fiji): ZZZ | eng
+English (Finland): ZZZ | eng
+English (Gambia): ZZZ | eng
+English (Germany): ZZZ | eng
+English (Ghana): ZZZ | eng
+English (Gibraltar): ZZZ | eng
+English (Grenada): ZZZ | eng
+English (Guam): ZZZ | eng
+English (Guernsey): ZZZ | eng
+English (Guyana): ZZZ | eng
+English (Hong Kong SAR): ENH | eng
+English (India): ENN | eng
+English (Indonesia): ZZZ | eng
+English (Ireland): ENI | eng
+English (Isle of Man): ZZZ | eng
+English (Israel): ZZZ | eng
+English (Jamaica): ENJ | eng
+English (Jersey): ZZZ | eng
+English (Kenya): ZZZ | eng
+English (Kiribati): ZZZ | eng
+English (Lesotho): ZZZ | eng
+English (Liberia): ZZZ | eng
+English (Macao SAR): ZZZ | eng
+English (Madagascar): ZZZ | eng
+English (Malawi): ZZZ | eng
+English (Malaysia): ENM | eng
+English (Malta): ZZZ | eng
+English (Marshall Islands): ZZZ | eng
+English (Mauritius): ZZZ | eng
+English (Micronesia): ZZZ | eng
+English (Montserrat): ZZZ | eng
+English (Namibia): ZZZ | eng
+English (Nauru): ZZZ | eng
+English (Netherlands): ZZZ | eng
+English (New Zealand): ENZ | eng
+English (Nigeria): ZZZ | eng
+English (Niue): ZZZ | eng
+English (Norfolk Island): ZZZ | eng
+English (Northern Mariana Islands): ZZZ | eng
+English (Pakistan): ZZZ | eng
+English (Palau): ZZZ | eng
+English (Papua New Guinea): ZZZ | eng
+English (Philippines): ENP | eng
+English (Pitcairn Islands): ZZZ | eng
+English (Puerto Rico): ZZZ | eng
+English (Rwanda): ZZZ | eng
+English (Samoa): ZZZ | eng
+English (Seychelles): ZZZ | eng
+English (Sierra Leone): ZZZ | eng
+English (Singapore): ENE | eng
+English (Sint Maarten): ZZZ | eng
+English (Slovenia): ZZZ | eng
+English (Solomon Islands): ZZZ | eng
+English (South Africa): ENS | eng
+English (South Sudan): ZZZ | eng
+English (St Helena, Ascension, Tristan da Cunha): ZZZ | eng
+English (St. Kitts & Nevis): ZZZ | eng
+English (St. Lucia): ZZZ | eng
+English (St. Vincent & Grenadines): ZZZ | eng
+English (Sudan): ZZZ | eng
+English (Sweden): ZZZ | eng
+English (Switzerland): ZZZ | eng
+English (Tanzania): ZZZ | eng
+English (Tokelau): ZZZ | eng
+English (Tonga): ZZZ | eng
+English (Trinidad & Tobago): ENT | eng
+English (Turks & Caicos Islands): ZZZ | eng
+English (Tuvalu): ZZZ | eng
+English (U.S. Outlying Islands): ZZZ | eng
+English (U.S. Virgin Islands): ZZZ | eng
+English (Uganda): ZZZ | eng
+English (United Arab Emirates): ZZZ | eng
+English (United Kingdom): ENG | eng
+English (United States): ENU | eng
+English (United States, Computer): ZZZ | eng
+English (Vanuatu): ZZZ | eng
+English (World): ZZZ | eng
+English (Zambia): ZZZ | eng
+English (Zimbabwe): ENW | eng
+English: ENU | eng
+Esperanto (World): ZZZ | epo
+Esperanto: ZZZ | epo
+Estonian (Estonia): ETI | est
+Estonian: ETI | est
+Ewe (Ghana): ZZZ | ewe
+Ewe (Togo): ZZZ | ewe
+Ewe: ZZZ | ewe
+Ewondo (Cameroon): ZZZ | ewo
+Ewondo: ZZZ | ewo
+Faroese (Denmark): ZZZ | fao
+Faroese (Faroe Islands): FOS | fao
+Faroese: FOS | fao
+Filipino (Philippines): FPO | fil
+Filipino: FPO | fil
+Finnish (Finland): FIN | fin
+Finnish: FIN | fin
+French (Algeria): ZZZ | fra
+French (Belgium): FRB | fra
+French (Benin): ZZZ | fra
+French (Burkina Faso): ZZZ | fra
+French (Burundi): ZZZ | fra
+French (Côte d’Ivoire): FRI | fra
+French (Cameroon): FRE | fra
+French (Canada): FRC | fra
+French (Caribbean): ZZZ | fra
+French (Central African Republic): ZZZ | fra
+French (Chad): ZZZ | fra
+French (Comoros): ZZZ | fra
+French (Congo [DRC]): FRD | fra
+French (Congo): ZZZ | fra
+French (Djibouti): ZZZ | fra
+French (Equatorial Guinea): ZZZ | fra
+French (France): FRA | fra
+French (French Guiana): ZZZ | fra
+French (French Polynesia): ZZZ | fra
+French (Gabon): ZZZ | fra
+French (Guadeloupe): ZZZ | fra
+French (Guinea): ZZZ | fra
+French (Haiti): FRH | fra
+French (Luxembourg): FRL | fra
+French (Madagascar): ZZZ | fra
+French (Mali): FRF | fra
+French (Martinique): ZZZ | fra
+French (Mauritania): ZZZ | fra
+French (Mauritius): ZZZ | fra
+French (Mayotte): ZZZ | fra
+French (Monaco): FRM | fra
+French (Morocco): FRO | fra
+French (New Caledonia): ZZZ | fra
+French (Niger): ZZZ | fra
+French (Réunion): FRR | fra
+French (Rwanda): ZZZ | fra
+French (Senegal): FRN | fra
+French (Seychelles): ZZZ | fra
+French (St. Barthélemy): ZZZ | fra
+French (St. Martin): ZZZ | fra
+French (St. Pierre & Miquelon): ZZZ | fra
+French (Switzerland): FRS | fra
+French (Syria): ZZZ | fra
+French (Togo): ZZZ | fra
+French (Tunisia): ZZZ | fra
+French (Vanuatu): ZZZ | fra
+French (Wallis & Futuna): ZZZ | fra
+French: FRA | fra
+Friulian (Italy): ZZZ | fur
+Friulian: ZZZ | fur
+Fulah (Adlam): ZZZ | ful
+Fulah (Adlam, Burkina Faso): ZZZ | ful
+Fulah (Adlam, Cameroon): ZZZ | ful
+Fulah (Adlam, Gambia): ZZZ | ful
+Fulah (Adlam, Ghana): ZZZ | ful
+Fulah (Adlam, Guinea-Bissau): ZZZ | ful
+Fulah (Adlam, Guinea): ZZZ | ful
+Fulah (Adlam, Liberia): ZZZ | ful
+Fulah (Adlam, Mauritania): ZZZ | ful
+Fulah (Adlam, Niger): ZZZ | ful
+Fulah (Adlam, Nigeria): ZZZ | ful
+Fulah (Adlam, Senegal): ZZZ | ful
+Fulah (Adlam, Sierra Leone): ZZZ | ful
+Fulah (Latin): FUL | ful
+Fulah (Latin, Burkina Faso): ZZZ | ful
+Fulah (Latin, Cameroon): ZZZ | ful
+Fulah (Latin, Gambia): ZZZ | ful
+Fulah (Latin, Ghana): ZZZ | ful
+Fulah (Latin, Guinea-Bissau): ZZZ | ful
+Fulah (Latin, Guinea): ZZZ | ful
+Fulah (Latin, Liberia): ZZZ | ful
+Fulah (Latin, Mauritania): ZZZ | ful
+Fulah (Latin, Niger): ZZZ | ful
+Fulah (Latin, Nigeria): ZZZ | ful
+Fulah (Latin, Senegal): FUL | ful
+Fulah (Latin, Sierra Leone): ZZZ | ful
+Fulah: FUL | ful
+Galician (Spain): GLC | glg
+Galician: GLC | glg
+Ganda (Uganda): ZZZ | lug
+Ganda: ZZZ | lug
+Georgian (Georgia): KAT | kat
+Georgian: KAT | kat
+German (Austria): DEA | deu
+German (Belgium): ZZZ | deu
+German (Germany): DEU | deu
+German (Italy): ZZZ | deu
+German (Liechtenstein): DEC | deu
+German (Luxembourg): DEL | deu
+German (Switzerland): DES | deu
+German: DEU | deu
+Greek (Cyprus): ZZZ | ell
+Greek (Greece): ELL | ell
+Greek: ELL | ell
+Guarani (Paraguay): GRN | grn
+Guarani: GRN | grn
+Gujarati (India): GUJ | guj
+Gujarati: GUJ | guj
+Gusii (Kenya): ZZZ | guz
+Gusii: ZZZ | guz
+Hausa (Ghana): ZZZ | hau
+Hausa (Niger): ZZZ | hau
+Hausa (Nigeria): ZZZ | hau
+Hausa: HAU | hau
+Hawaiian (United States): HAW | haw
+Hawaiian: HAW | haw
+Hebrew (Israel): HEB | heb
+Hebrew: HEB | heb
+Hindi (India): HIN | hin
+Hindi: HIN | hin
+Hungarian (Hungary): HUN | hun
+Hungarian: HUN | hun
+Ibibio (Nigeria): ZZZ | ibb
+Ibibio: ZZZ | ibb
+Icelandic (Iceland): ISL | isl
+Icelandic: ISL | isl
+Igbo (Nigeria): IBO | ibo
+Igbo: IBO | ibo
+Inari Sami (Finland): SMN | smn
+Inari Sami: SMN | smn
+Indonesian (Indonesia): IND | ind
+Indonesian: IND | ind
+Interlingua (World): ZZZ | ina
+Interlingua: ZZZ | ina
+Inuktitut (Canada): ZZZ | iku
+Inuktitut (Latin): IUK | iku
+Inuktitut (Latin, Canada): IUK | iku
+Inuktitut: IUK | iku
+Invariant Language (Invariant Country): IVL | ivl
+Irish (Ireland): IRE | gle
+Irish (United Kingdom): ZZZ | gle
+Irish: IRE | gle
+isiXhosa (South Africa): XHO | xho
+isiXhosa: XHO | xho
+isiZulu (South Africa): ZUL | zul
+isiZulu: ZUL | zul
+Italian (Italy): ITA | ita
+Italian (San Marino): ZZZ | ita
+Italian (Switzerland): ITS | ita
+Italian (Vatican City): ZZZ | ita
+Italian: ITA | ita
+Japanese (Japan): JPN | jpn
+Japanese: JPN | jpn
+Javanese (Indonesia): ZZZ | jav
+Javanese (Javanese): ZZZ | jav
+Javanese (Javanese, Indonesia): ZZZ | jav
+Javanese: JAV | jav
+Jola-Fonyi (Senegal): ZZZ | dyo
+Jola-Fonyi: ZZZ | dyo
+Kʼicheʼ (Guatemala): ZZZ | quc
+Kʼicheʼ: QUC | quc
+Kabuverdianu (Cabo Verde): ZZZ | kea
+Kabuverdianu: ZZZ | kea
+Kabyle (Algeria): ZZZ | kab
+Kabyle: ZZZ | kab
+Kako (Cameroon): ZZZ | kkj
+Kako: ZZZ | kkj
+Kalaallisut (Greenland): KAL | kal
+Kalaallisut: KAL | kal
+Kalenjin (Kenya): ZZZ | kln
+Kalenjin: ZZZ | kln
+Kamba (Kenya): ZZZ | kam
+Kamba: ZZZ | kam
+Kannada (India): KDI | kan
+Kannada: KDI | kan
+Kanuri (Latin): ZZZ | kau
+Kanuri (Latin, Nigeria): ZZZ | kau
+Kanuri: ZZZ | kau
+Kashmiri (Arabic): ZZZ | kas
+Kashmiri (Arabic, India): ZZZ | kas
+Kashmiri (Devanagari): ZZZ | kas
+Kashmiri (Devanagari, India): ZZZ | kas
+Kashmiri: ZZZ | kas
+Kazakh (Kazakhstan): KKZ | kaz
+Kazakh: KKZ | kaz
+Khmer (Cambodia): KHM | khm
+Khmer: KHM | khm
+Kikuyu (Kenya): ZZZ | kik
+Kikuyu: ZZZ | kik
+Kinyarwanda (Rwanda): KIN | kin
+Kinyarwanda: KIN | kin
+Kiswahili (Congo [DRC]): ZZZ | swa
+Kiswahili (Kenya): SWK | swa
+Kiswahili (Tanzania): ZZZ | swa
+Kiswahili (Uganda): ZZZ | swa
+Kiswahili: SWK | swa
+Konkani (India): KNK | kok
+Konkani: KNK | kok
+Korean (Korea): KOR | kor
+Korean (North Korea): ZZZ | kor
+Korean: KOR | kor
+Koyra Chiini (Mali): ZZZ | khq
+Koyra Chiini: ZZZ | khq
+Koyraboro Senni (Mali): ZZZ | ses
+Koyraboro Senni: ZZZ | ses
+Kwasio (Cameroon): ZZZ | nmg
+Kwasio: ZZZ | nmg
+Kyrgyz (Kyrgyzstan): KYR | kir
+Kyrgyz: KYR | kir
+Lakota (United States): ZZZ | lkt
+Lakota: ZZZ | lkt
+Langi (Tanzania): ZZZ | lag
+Langi: ZZZ | lag
+Lao (Laos): LAO | lao
+Lao: LAO | lao
+Latin (Vatican City): ZZZ | lat
+Latin: ZZZ | lat
+Latvian (Latvia): LVI | lav
+Latvian: LVI | lav
+Lingala (Angola): ZZZ | lin
+Lingala (Central African Republic): ZZZ | lin
+Lingala (Congo [DRC]): ZZZ | lin
+Lingala (Congo): ZZZ | lin
+Lingala: ZZZ | lin
+Lithuanian (Lithuania): LTH | lit
+Lithuanian: LTH | lit
+Low German (Germany): ZZZ | nds
+Low German (Netherlands): ZZZ | nds
+Low German: ZZZ | nds
+Lower Sorbian (Germany): DSB | dsb
+Lower Sorbian: DSB | dsb
+Luba-Katanga (Congo [DRC]): ZZZ | lub
+Luba-Katanga: ZZZ | lub
+Lule Sami (Norway): SMJ | smj
+Lule Sami (Sweden): SMK | smj
+Lule Sami: SMK | smj
+Luo (Kenya): ZZZ | luo
+Luo: ZZZ | luo
+Luxembourgish (Luxembourg): LBX | ltz
+Luxembourgish: LBX | ltz
+Luyia (Kenya): ZZZ | luy
+Luyia: ZZZ | luy
+Macedonian (North Macedonia): MKI | mkd
+Macedonian: MKI | mkd
+Machame (Tanzania): ZZZ | jmc
+Machame: ZZZ | jmc
+Maithili (India): ZZZ | mai
+Maithili: ZZZ | mai
+Makhuwa-Meetto (Mozambique): ZZZ | mgh
+Makhuwa-Meetto: ZZZ | mgh
+Makonde (Tanzania): ZZZ | kde
+Makonde: ZZZ | kde
+Malagasy (Madagascar): MLG | mlg
+Malagasy: MLG | mlg
+Malay (Brunei): MSB | msa
+Malay (Indonesia): ZZZ | msa
+Malay (Malaysia): MSL | msa
+Malay (Singapore): ZZZ | msa
+Malay: MSL | msa
+Malayalam (India): MYM | mal
+Malayalam: MYM | mal
+Maltese (Malta): MLT | mlt
+Maltese: MLT | mlt
+Manipuri (Bangla): ZZZ | mni
+Manipuri (Bangla, India): ZZZ | mni
+Manipuri: ZZZ | mni
+Manx (Isle of Man): ZZZ | glv
+Manx: ZZZ | glv
+Maori (New Zealand): MRI | mri
+Maori: MRI | mri
+Mapuche (Chile): MPD | arn
+Mapuche: MPD | arn
+Marathi (India): MAR | mar
+Marathi: MAR | mar
+Masai (Kenya): ZZZ | mas
+Masai (Tanzania): ZZZ | mas
+Masai: ZZZ | mas
+Mazanderani (Iran): ZZZ | mzn
+Mazanderani: ZZZ | mzn
+Meru (Kenya): ZZZ | mer
+Meru: ZZZ | mer
+Metaʼ (Cameroon): ZZZ | mgo
+Metaʼ: ZZZ | mgo
+Mohawk (Canada): MWK | moh
+Mohawk: MWK | moh
+Mongolian (Mongolia): MNN | mon
+Mongolian (Mongolian): MNG | mon
+Mongolian (Mongolian, China): MNG | mon
+Mongolian (Mongolian, Mongolia): MNM | mon
+Mongolian: MON | mon
+Morisyen (Mauritius): ZZZ | mfe
+Morisyen: ZZZ | mfe
+Mundang (Cameroon): ZZZ | mua
+Mundang: ZZZ | mua
+Nama (Namibia): ZZZ | naq
+Nama: ZZZ | naq
+Nepali (India): NEI | nep
+Nepali (Nepal): NEP | nep
+Nepali: NEP | nep
+Ngiemboon (Cameroon): ZZZ | nnh
+Ngiemboon: ZZZ | nnh
+Ngomba (Cameroon): ZZZ | jgo
+Ngomba: ZZZ | jgo
+Nigerian Pidgin (Nigeria): ZZZ | pcm
+Nigerian Pidgin: ZZZ | pcm
+North Ndebele (Zimbabwe): ZZZ | nde
+North Ndebele: ZZZ | nde
+Northern Luri (Iran): ZZZ | lrc
+Northern Luri (Iraq): ZZZ | lrc
+Northern Luri: ZZZ | lrc
+Northern Sami (Finland): SMG | sme
+Northern Sami (Norway): SME | sme
+Northern Sami (Sweden): SMF | sme
+Northern Sami: SME | sme
+Norwegian Bokmål (Norway): NOR | nob
+Norwegian Bokmål (Svalbard & Jan Mayen): ZZZ | nob
+Norwegian Bokmål: NOR | nob
+Norwegian Nynorsk (Norway): NON | nno
+Norwegian Nynorsk: NON | nno
+Nuer (South Sudan): ZZZ | nus
+Nuer: ZZZ | nus
+Nyankole (Uganda): ZZZ | nyn
+Nyankole: ZZZ | nyn
+N’Ko (Guinea): NQO | nqo
+N’Ko: NQO | nqo
+Occitan (France): OCI | oci
+Occitan: OCI | oci
+Odia (India): ORI | ori
+Odia: ORI | ori
+Oromo (Ethiopia): ORM | orm
+Oromo (Kenya): ZZZ | orm
+Oromo: ORM | orm
+Ossetic (Georgia): ZZZ | oss
+Ossetic (Russia): ZZZ | oss
+Ossetic: ZZZ | oss
+Papiamento (Caribbean): ZZZ | pap
+Papiamento: ZZZ | pap
+Pashto (Afghanistan): PAS | pus
+Pashto (Pakistan): ZZZ | pus
+Pashto: PAS | pus
+Persian (Afghanistan): ZZZ | fas
+Persian (Iran): FAR | fas
+Persian: FAR | fas
+Polish (Poland): PLK | pol
+Polish: PLK | pol
+Portuguese (Angola): PTA | por
+Portuguese (Brazil): PTB | por
+Portuguese (Cabo Verde): ZZZ | por
+Portuguese (Equatorial Guinea): ZZZ | por
+Portuguese (Guinea-Bissau): ZZZ | por
+Portuguese (Luxembourg): ZZZ | por
+Portuguese (Macao SAR): ZZZ | por
+Portuguese (Mozambique): ZZZ | por
+Portuguese (Portugal): PTG | por
+Portuguese (São Tomé & Príncipe): ZZZ | por
+Portuguese (Switzerland): ZZZ | por
+Portuguese (Timor-Leste): ZZZ | por
+Portuguese: PTB | por
+Prussian (World): ZZZ | prg
+Prussian: ZZZ | prg
+Punjabi (Arabic): PAP | pan
+Punjabi (Arabic, Pakistan): PAP | pan
+Punjabi (Gurmukhi): ZZZ | pan
+Punjabi (Gurmukhi, India): ZZZ | pan
+Punjabi: PAN | pan
+Quechua (Bolivia): ZZZ | que
+Quechua (Ecuador): ZZZ | que
+Quechua (Peru): ZZZ | que
+Quechua: ZZZ | que
+Romanian (Moldova): ROD | ron
+Romanian (Romania): ROM | ron
+Romanian: ROM | ron
+Romansh (Switzerland): RMC | roh
+Romansh: RMC | roh
+Rombo (Tanzania): ZZZ | rof
+Rombo: ZZZ | rof
+Rundi (Burundi): ZZZ | run
+Rundi: ZZZ | run
+Russian (Belarus): ZZZ | rus
+Russian (Kazakhstan): ZZZ | rus
+Russian (Kyrgyzstan): ZZZ | rus
+Russian (Moldova): RUM | rus
+Russian (Russia): RUS | rus
+Russian (Ukraine): ZZZ | rus
+Russian: RUS | rus
+Rwa (Tanzania): ZZZ | rwk
+Rwa: ZZZ | rwk
+Saho (Eritrea): ZZZ | ssy
+Saho: ZZZ | ssy
+Sakha (Russia): SAH | sah
+Sakha: SAH | sah
+Samburu (Kenya): ZZZ | saq
+Samburu: ZZZ | saq
+Sango (Central African Republic): ZZZ | sag
+Sango: ZZZ | sag
+Sangu (Tanzania): ZZZ | sbp
+Sangu: ZZZ | sbp
+Sanskrit (India): SAN | san
+Sanskrit: SAN | san
+Santali (Ol Chiki): ZZZ | sat
+Santali (Ol Chiki, India): ZZZ | sat
+Santali: ZZZ | sat
+Scottish Gaelic (United Kingdom): GLA | gla
+Scottish Gaelic: GLA | gla
+Sena (Mozambique): ZZZ | seh
+Sena: ZZZ | seh
+Serbian (Cyrillic): SRO | srp
+Serbian (Cyrillic, Bosnia & Herzegovina): SRN | srp
+Serbian (Cyrillic, Kosovo): ZZZ | srp
+Serbian (Cyrillic, Montenegro): SRQ | srp
+Serbian (Cyrillic, Serbia): SRO | srp
+Serbian (Latin): SRM | srp
+Serbian (Latin, Bosnia & Herzegovina): SRS | srp
+Serbian (Latin, Kosovo): ZZZ | srp
+Serbian (Latin, Montenegro): SRP | srp
+Serbian (Latin, Serbia): SRM | srp
+Serbian: SRB | srp
+Sesotho (Lesotho): ZZZ | sot
+Sesotho (South Africa): SOT | sot
+Sesotho sa Leboa (South Africa): NSO | nso
+Sesotho sa Leboa: NSO | nso
+Sesotho: SOT | sot
+Setswana (Botswana): TSB | tsn
+Setswana (South Africa): TSN | tsn
+Setswana: TSN | tsn
+Shambala (Tanzania): ZZZ | ksb
+Shambala: ZZZ | ksb
+Shona (Zimbabwe): ZZZ | sna
+Shona: SNA | sna
+Sindhi (Arabic): SIP | snd
+Sindhi (Arabic, Pakistan): SIP | snd
+Sindhi (Devanagari): ZZZ | snd
+Sindhi (Devanagari, India): ZZZ | snd
+Sindhi: SIP | snd
+Sinhala (Sri Lanka): SIN | sin
+Sinhala: SIN | sin
+siSwati (Eswatini): ZZZ | ssw
+siSwati (South Africa): ZZZ | ssw
+siSwati: ZZZ | ssw
+Skolt Sami (Finland): SMS | sms
+Skolt Sami: SMS | sms
+Slovak (Slovakia): SKY | slk
+Slovak: SKY | slk
+Slovenian (Slovenia): SLV | slv
+Slovenian: SLV | slv
+Soga (Uganda): ZZZ | xog
+Soga: ZZZ | xog
+Somali (Djibouti): ZZZ | som
+Somali (Ethiopia): ZZZ | som
+Somali (Kenya): ZZZ | som
+Somali (Somalia): SOM | som
+Somali: SOM | som
+South Ndebele (South Africa): ZZZ | nbl
+South Ndebele: ZZZ | nbl
+Southern Sami (Norway): SMA | sma
+Southern Sami (Sweden): SMB | sma
+Southern Sami: SMB | sma
+Spanish (Argentina): ESS | spa
+Spanish (Belize): ZZZ | spa
+Spanish (Bolivia): ESB | spa
+Spanish (Brazil): ZZZ | spa
+Spanish (Chile): ESL | spa
+Spanish (Colombia): ESO | spa
+Spanish (Costa Rica): ESC | spa
+Spanish (Cuba): ESK | spa
+Spanish (Dominican Republic): ESD | spa
+Spanish (Ecuador): ESF | spa
+Spanish (El Salvador): ESE | spa
+Spanish (Equatorial Guinea): ZZZ | spa
+Spanish (Guatemala): ESG | spa
+Spanish (Honduras): ESH | spa
+Spanish (Latin America): ESJ | spa
+Spanish (Mexico): ESM | spa
+Spanish (Nicaragua): ESI | spa
+Spanish (Panama): ESA | spa
+Spanish (Paraguay): ESZ | spa
+Spanish (Peru): ESR | spa
+Spanish (Philippines): ZZZ | spa
+Spanish (Puerto Rico): ESU | spa
+Spanish (Spain): ESN | spa
+Spanish (United States): EST | spa
+Spanish (Uruguay): ESY | spa
+Spanish (Venezuela): ESV | spa
+Spanish: ESP | spa
+Standard Moroccan Tamazight (Morocco): ZZZ | zgh
+Standard Moroccan Tamazight: ZHG | zgh
+Sundanese (Latin): ZZZ | sun
+Sundanese (Latin, Indonesia): ZZZ | sun
+Sundanese: ZZZ | sun
+Swedish (Åland Islands): ZZZ | swe
+Swedish (Finland): SVF | swe
+Swedish (Sweden): SVE | swe
+Swedish: SVE | swe
+Swiss German (France): GSW | gsw
+Swiss German (Liechtenstein): ZZZ | gsw
+Swiss German (Switzerland): ZZZ | gsw
+Swiss German: ZZZ | gsw
+Syriac (Syria): SYR | syr
+Syriac: SYR | syr
+Tachelhit (Latin): ZZZ | shi
+Tachelhit (Latin, Morocco): ZZZ | shi
+Tachelhit (Tifinagh): ZZZ | shi
+Tachelhit (Tifinagh, Morocco): ZZZ | shi
+Tachelhit: ZZZ | shi
+Taita (Kenya): ZZZ | dav
+Taita: ZZZ | dav
+Tajik (Tajikistan): ZZZ | tgk
+Tajik: TAJ | tgk
+Tamil (India): TAI | tam
+Tamil (Malaysia): ZZZ | tam
+Tamil (Singapore): ZZZ | tam
+Tamil (Sri Lanka): TAM | tam
+Tamil: TAI | tam
+Tasawaq (Niger): ZZZ | twq
+Tasawaq: ZZZ | twq
+Tatar (Russia): TTT | tat
+Tatar: TTT | tat
+Telugu (India): TEL | tel
+Telugu: TEL | tel
+Teso (Kenya): ZZZ | teo
+Teso (Uganda): ZZZ | teo
+Teso: ZZZ | teo
+Thai (Thailand): THA | tha
+Thai: THA | tha
+Tibetan (China): BOB | bod
+Tibetan (India): ZZZ | bod
+Tibetan: BOB | bod
+Tigre (Eritrea): ZZZ | tig
+Tigre: ZZZ | tig
+Tigrinya (Eritrea): TIR | tir
+Tigrinya (Ethiopia): TIE | tir
+Tigrinya: TIR | tir
+Tongan (Tonga): ZZZ | ton
+Tongan: ZZZ | ton
+Turkish (Cyprus): ZZZ | tur
+Turkish (Turkey): TRK | tur
+Turkish: TRK | tur
+Turkmen (Turkmenistan): TUK | tuk
+Turkmen: TUK | tuk
+Ukrainian (Ukraine): UKR | ukr
+Ukrainian: UKR | ukr
+Upper Sorbian (Germany): HSB | hsb
+Upper Sorbian: HSB | hsb
+Urdu (India): URI | urd
+Urdu (Pakistan): URD | urd
+Urdu: URD | urd
+Uyghur (China): UIG | uig
+Uyghur: UIG | uig
+Uzbek (Arabic): ZZZ | uzb
+Uzbek (Arabic, Afghanistan): ZZZ | uzb
+Uzbek (Cyrillic): UZC | uzb
+Uzbek (Cyrillic, Uzbekistan): UZC | uzb
+Uzbek (Latin): UZB | uzb
+Uzbek (Latin, Uzbekistan): UZB | uzb
+Uzbek: UZB | uzb
+Vai (Latin): ZZZ | vai
+Vai (Latin, Liberia): ZZZ | vai
+Vai (Vai): ZZZ | vai
+Vai (Vai, Liberia): ZZZ | vai
+Vai: ZZZ | vai
+Venda (South Africa): ZZZ | ven
+Venda: ZZZ | ven
+Vietnamese (Vietnam): VIT | vie
+Vietnamese: VIT | vie
+Volapük (World): ZZZ | vol
+Volapük: ZZZ | vol
+Vunjo (Tanzania): ZZZ | vun
+Vunjo: ZZZ | vun
+Walser (Switzerland): ZZZ | wae
+Walser: ZZZ | wae
+Welsh (United Kingdom): CYM | cym
+Welsh: CYM | cym
+Western Frisian (Netherlands): FYN | fry
+Western Frisian: FYN | fry
+Wolaytta (Ethiopia): ZZZ | wal
+Wolaytta: ZZZ | wal
+Wolof (Senegal): WOL | wol
+Wolof: WOL | wol
+Xitsonga (South Africa): TSO | tso
+Xitsonga: TSO | tso
+Yangben (Cameroon): ZZZ | yav
+Yangben: ZZZ | yav
+Yi (China): III | iii
+Yi: III | iii
+Yiddish (World): ZZZ | yid
+Yiddish: ZZZ | yid
+Yoruba (Benin): ZZZ | yor
+Yoruba (Nigeria): YOR | yor
+Yoruba: YOR | yor
+Zarma (Niger): ZZZ | dje
+Zarma: ZZZ | dje

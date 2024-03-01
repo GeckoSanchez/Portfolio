@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1tRUruHmX1B9Nm87MwI4PtCxgblJCVtZknMCGgTxmW8=",
+  "Hash": "317MBaxWSfja9e7SxcGaJVXKHc2YHdGHsdnRLnGKh74=",
   "Source": "ZData00",
   "BasePath": "_content/ZData00",
   "Mode": "Default",
@@ -16,6 +16,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\GS\\.nuget\\packages\\mudblazor\\6.16.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\GS\\.nuget\\packages\\mudblazor\\6.16.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\GS\\.nuget\\packages\\mudblazor\\6.16.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\GS\\.nuget\\packages\\mudblazor\\6.16.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\GS\\.nuget\\packages\\mudblazor\\6.16.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\GS\\.nuget\\packages\\mudblazor\\6.16.0\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "D:\\Portfolio\\ZData\\ZData00\\wwwroot\\bootstrap\\css\\bootstrap.css",
       "SourceId": "ZData00",

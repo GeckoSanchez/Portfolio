@@ -1,0 +1,4 @@
+[21:02:37.895089] The start value ('8') is lesser than the end value ('64') (Block: 'Index' constructor, Location: 'Pages/Index.razor.cs', Line: #16)
+[21:03:19.971695] The difference between the start value ('8') and the end value ('64') ('-1') (Block: 'Index' constructor, Location: 'Pages/Index.razor.cs', Line: #16)
+[21:06:04.305658] This name's ('ALLO') length ('4') does not fit in the standard range for a name ('[8,64](1)') (Block: 'Index' constructor, Location: 'Pages/Index.razor.cs', Line: #16)
+[21:06:36.601801] This name's ('ALLO') length ('4') does not fit in the standard range for a name ('[8,64](1)') (Block: 'Index' constructor, Location: 'Pages/Index.razor.cs', Line: #16)

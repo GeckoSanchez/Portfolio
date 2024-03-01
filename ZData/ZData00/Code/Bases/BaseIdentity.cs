@@ -17,7 +17,14 @@
 		[JsonProperty]
 		public BaseID<TEnum> ID => Value;
 
-		[JsonConstructor, PrimaryConstructor]
+		/// <summary>
+		/// Primary constructor for the <see cref="BaseIdentity{TEnum}"/> class
+		/// </summary>
+		/// <param name="name">The given name</param>
+		/// <param name="type">The given type</param>
+		/// <param name="id">The given ID</param>
+		/// <exception cref="IdentityException"/>
+		[JsonConstructor, MainConstructor]
 		public BaseIdentity(BaseName name, BaseType<TEnum> type, BaseID<TEnum> id) : base(id)
 		{
 			var sf = new StackFrame(true);
@@ -34,8 +41,18 @@
 			}
 		}
 
+		/// <summary>
+		/// Constructor for the <see cref="BaseIdentity{TEnum}"/> class
+		/// </summary>
+		/// <inheritdoc cref="BaseIdentity{TEnum}.BaseIdentity(BaseName, BaseType{TEnum}, BaseID{TEnum})"/>
+		/// <exception cref="IdentityException"/>
 		public BaseIdentity(BaseName name, BaseType<TEnum> type) : this(name, type, BaseID<TEnum>.Generate(type)) => Log.Event(new StackFrame(true));
+
+		/// <inheritdoc cref="BaseIdentity{TEnum}.BaseIdentity(BaseName, BaseType{TEnum})"/>
 		public BaseIdentity(BaseName name, TEnum type) : this(name, type,BaseID<TEnum>.Generate(type)) => Log.Event(new StackFrame(true));
+
+		/// <inheritdoc cref="BaseIdentity{TEnum}.BaseIdentity(BaseName, BaseType{TEnum})"/>
+		public BaseIdentity(string name, TEnum type) : this(name, type,BaseID<TEnum>.Generate(type)) => Log.Event(new StackFrame(true));
 
 		public override string ToString()
 		{

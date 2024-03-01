@@ -13,17 +13,17 @@
 		[JsonProperty]
 		public new string Value { get => base.Value; protected set => base.Value = value; }
 
-		[JsonConstructor, PrimaryConstructor]
+		[JsonConstructor, MainConstructor]
 		public BaseName(string value) : base(Def.Name)
 		{
 			var sf = new StackFrame(true);
 			Log.Event(sf);
 
-			Range<int> range = new(8, 64, 1);
+			Range<int> range = new(1, 64, 1);
 
 			try
 			{
-				if (value.Length < range.End)
+				if (value.Length > range.End || value.Length < range.Start)
 					throw new Exception($"This name's {Format<string>.ExcValue(value)} length {Format<int>.ExcValue(value.Length)} does not fit in the standard range for a name {Format<Range<int>>.ExcValue(range)}");
 				else
 					Value = value;
@@ -33,5 +33,7 @@
 				throw new NameException(ex, sf);
 			}
 		}
+
+		public static implicit operator BaseName(string v) => new(v);
 	}
 }

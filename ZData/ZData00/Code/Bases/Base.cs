@@ -11,6 +11,9 @@
 	{
 		private bool _disposed;
 
+		/// <summary>
+		/// The base <typeparamref name="T"/>-type value
+		/// </summary>
 		public T Value { get; protected set; }
 
 		[JsonConstructor]

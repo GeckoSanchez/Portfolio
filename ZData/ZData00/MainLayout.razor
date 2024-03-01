@@ -1,3 +1,12 @@
 ﻿@inherits LayoutComponentBase
 
-<main> @Body </main>
+@try
+{
+	<main>
+		@Body
+	</main>
+}
+catch (Exception ex)
+{
+	Log.Error(ex, new System.Diagnostics.StackFrame(true));
+}

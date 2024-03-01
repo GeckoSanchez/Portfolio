@@ -1,0 +1,537 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\Minimal UI Icons Collection.url",
+      "PackagePath": "staticwebassets\\svg\\Minimal UI Icons Collection.url"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\Pe Icon Oval Line Icons Collection.url",
+      "PackagePath": "staticwebassets\\svg\\Pe Icon Oval Line Icons Collection.url"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\add.svg",
+      "PackagePath": "staticwebassets\\svg\\add.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\binary.svg",
+      "PackagePath": "staticwebassets\\svg\\binary.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\black-light-bulb.svg",
+      "PackagePath": "staticwebassets\\svg\\black-light-bulb.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\blank.svg",
+      "PackagePath": "staticwebassets\\svg\\blank.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\boolean.svg",
+      "PackagePath": "staticwebassets\\svg\\boolean.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\calendar-alt.svg",
+      "PackagePath": "staticwebassets\\svg\\calendar-alt.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\calendar.svg",
+      "PackagePath": "staticwebassets\\svg\\calendar.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\cd.svg",
+      "PackagePath": "staticwebassets\\svg\\cd.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\celsius.svg",
+      "PackagePath": "staticwebassets\\svg\\celsius.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\circle-arrowdown.svg",
+      "PackagePath": "staticwebassets\\svg\\circle-arrowdown.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\circle-arrowup.svg",
+      "PackagePath": "staticwebassets\\svg\\circle-arrowup.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\circle-cancel.svg",
+      "PackagePath": "staticwebassets\\svg\\circle-cancel.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\clock-alt.svg",
+      "PackagePath": "staticwebassets\\svg\\clock-alt.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\clock.svg",
+      "PackagePath": "staticwebassets\\svg\\clock.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\config.svg",
+      "PackagePath": "staticwebassets\\svg\\config.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\confirm.svg",
+      "PackagePath": "staticwebassets\\svg\\confirm.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\connected.svg",
+      "PackagePath": "staticwebassets\\svg\\connected.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\coordinate.svg",
+      "PackagePath": "staticwebassets\\svg\\coordinate.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\credit-card.svg",
+      "PackagePath": "staticwebassets\\svg\\credit-card.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\database.svg",
+      "PackagePath": "staticwebassets\\svg\\database.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\desktop-pc.svg",
+      "PackagePath": "staticwebassets\\svg\\desktop-pc.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\disconnected.svg",
+      "PackagePath": "staticwebassets\\svg\\disconnected.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\dislike.svg",
+      "PackagePath": "staticwebassets\\svg\\dislike.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\document.svg",
+      "PackagePath": "staticwebassets\\svg\\document.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\dollar.svg",
+      "PackagePath": "staticwebassets\\svg\\dollar.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\download.svg",
+      "PackagePath": "staticwebassets\\svg\\download.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\euro.svg",
+      "PackagePath": "staticwebassets\\svg\\euro.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\expand.svg",
+      "PackagePath": "staticwebassets\\svg\\expand.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\fahrenheit.svg",
+      "PackagePath": "staticwebassets\\svg\\fahrenheit.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\female-alt.svg",
+      "PackagePath": "staticwebassets\\svg\\female-alt.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\female.svg",
+      "PackagePath": "staticwebassets\\svg\\female.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\filter.svg",
+      "PackagePath": "staticwebassets\\svg\\filter.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\image.svg",
+      "PackagePath": "staticwebassets\\svg\\image.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\internet.svg",
+      "PackagePath": "staticwebassets\\svg\\internet.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\laptop.svg",
+      "PackagePath": "staticwebassets\\svg\\laptop.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\like.svg",
+      "PackagePath": "staticwebassets\\svg\\like.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\link.svg",
+      "PackagePath": "staticwebassets\\svg\\link.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\locked-alt.svg",
+      "PackagePath": "staticwebassets\\svg\\locked-alt.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\locked.svg",
+      "PackagePath": "staticwebassets\\svg\\locked.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\mail.svg",
+      "PackagePath": "staticwebassets\\svg\\mail.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\male-alt.svg",
+      "PackagePath": "staticwebassets\\svg\\male-alt.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\male.svg",
+      "PackagePath": "staticwebassets\\svg\\male.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\microphone.svg",
+      "PackagePath": "staticwebassets\\svg\\microphone.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\monitor.svg",
+      "PackagePath": "staticwebassets\\svg\\monitor.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\mouse.svg",
+      "PackagePath": "staticwebassets\\svg\\mouse.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\network.svg",
+      "PackagePath": "staticwebassets\\svg\\network.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\next.svg",
+      "PackagePath": "staticwebassets\\svg\\next.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\number.svg",
+      "PackagePath": "staticwebassets\\svg\\number.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\phone.svg",
+      "PackagePath": "staticwebassets\\svg\\phone.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\picture.svg",
+      "PackagePath": "staticwebassets\\svg\\picture.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\power.svg",
+      "PackagePath": "staticwebassets\\svg\\power.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\previous.svg",
+      "PackagePath": "staticwebassets\\svg\\previous.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\printer.svg",
+      "PackagePath": "staticwebassets\\svg\\printer.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\question-mark.svg",
+      "PackagePath": "staticwebassets\\svg\\question-mark.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\remove.svg",
+      "PackagePath": "staticwebassets\\svg\\remove.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\save.svg",
+      "PackagePath": "staticwebassets\\svg\\save.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\search.svg",
+      "PackagePath": "staticwebassets\\svg\\search.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\security.svg",
+      "PackagePath": "staticwebassets\\svg\\security.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\server.svg",
+      "PackagePath": "staticwebassets\\svg\\server.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\settings.svg",
+      "PackagePath": "staticwebassets\\svg\\settings.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\square-arrowdown.svg",
+      "PackagePath": "staticwebassets\\svg\\square-arrowdown.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\square-arrowleft.svg",
+      "PackagePath": "staticwebassets\\svg\\square-arrowleft.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\square-arrowright.svg",
+      "PackagePath": "staticwebassets\\svg\\square-arrowright.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\square-arrowtop.svg",
+      "PackagePath": "staticwebassets\\svg\\square-arrowtop.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\string.svg",
+      "PackagePath": "staticwebassets\\svg\\string.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\switch-button.svg",
+      "PackagePath": "staticwebassets\\svg\\switch-button.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\tablet.svg",
+      "PackagePath": "staticwebassets\\svg\\tablet.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\toggle-left.svg",
+      "PackagePath": "staticwebassets\\svg\\toggle-left.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\toggle-right.svg",
+      "PackagePath": "staticwebassets\\svg\\toggle-right.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\unlocked-alt.svg",
+      "PackagePath": "staticwebassets\\svg\\unlocked-alt.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\unlocked.svg",
+      "PackagePath": "staticwebassets\\svg\\unlocked.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\up.svg",
+      "PackagePath": "staticwebassets\\svg\\up.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\upload.svg",
+      "PackagePath": "staticwebassets\\svg\\upload.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\user-alt.svg",
+      "PackagePath": "staticwebassets\\svg\\user-alt.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\user-alt2.svg",
+      "PackagePath": "staticwebassets\\svg\\user-alt2.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\user-alt3.svg",
+      "PackagePath": "staticwebassets\\svg\\user-alt3.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\user.svg",
+      "PackagePath": "staticwebassets\\svg\\user.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\visible.svg",
+      "PackagePath": "staticwebassets\\svg\\visible.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\white-light-bulb.svg",
+      "PackagePath": "staticwebassets\\svg\\white-light-bulb.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\wifi-alt.svg",
+      "PackagePath": "staticwebassets\\svg\\wifi-alt.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\wifi.svg",
+      "PackagePath": "staticwebassets\\svg\\wifi.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\ZData\\ZData01\\wwwroot\\svg\\yen.svg",
+      "PackagePath": "staticwebassets\\svg\\yen.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ZData01.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ZData01.props",
+      "PackagePath": "build\\ZData01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ZData01.props",
+      "PackagePath": "buildMultiTargeting\\ZData01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ZData01.props",
+      "PackagePath": "buildTransitive\\ZData01.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

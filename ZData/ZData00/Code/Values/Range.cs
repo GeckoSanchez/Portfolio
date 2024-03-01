@@ -9,7 +9,7 @@
 	using Newtonsoft.Json;
 
 	[JsonObject(MemberSerialization.OptIn)]
-	public class Range<TRange> : Base<TRange[]> where TRange : notnull, INumber<TRange>, IMinMaxValue<TRange>
+	public class Range<TRange> : Base<TRange[]> where TRange : notnull, INumberBase<TRange>, IComparisonOperators<TRange, TRange, bool>, IMinMaxValue<TRange>
 	{
 		[JsonProperty]
 		public TRange Start { get; init; }
@@ -48,7 +48,7 @@
 		/// <param name="start">The minimum value for this <see cref="Range{TRange}"/></param>
 		/// <param name="end">The maximum value for this <see cref="Range{TRange}"/></param>
 		/// <param name="step">The difference between each value of this <see cref="Range{TRange}"/></param>
-		/// <exception cref="NumberException"></exception>
+		/// <exception cref="NumberException"é>
 		[JsonConstructor]
 		public Range(TRange start, TRange end, TRange step) : base([])
 		{
@@ -57,15 +57,18 @@
 
 			try
 			{
-				if (start < end)
-					throw new Exception($"The start value {Format<TRange>.ExcValue(start)} is lesser than the end value {Format<TRange>.ExcValue(end)}");
-				else if (TRange.CreateTruncating(start.CompareTo(end)) < step)
-					throw new Exception($"The difference between the start value {Format<TRange>.ExcValue(start)} and the end value {Format<TRange>.ExcValue(end)} {Format<int>.ExcValue(start.CompareTo(end))} ");
+				if (start > end)
+					throw new Exception($"The start value {Format<TRange>.ExcValue(start)} is greater than the end value {Format<TRange>.ExcValue(end)}");
+				else if (start < step)
+					throw new Exception($"The difference between the start value {Format<TRange>.ExcValue(start)} and the end value {Format<TRange>.ExcValue(end)} {Format<TRange>.ExcValue(end - start)} is greater than the step value {Format<TRange>.ExcValue(step)}");
 				else
 				{
 					End = end;
 					Start = start;
 					Step = step;
+
+					for (TRange i = Start; i < End; i += Step)
+						base.Value = [.. base.Value, i];
 				}
 			}
 			catch (Exception ex)
@@ -162,7 +165,7 @@
 			}
 			catch (JsonException)
 			{
-				throw new BaseException($"This data could not serialized into the JSON format", sf);
+				throw new NumberException($"This data could not serialized into the JSON format", sf);
 			}
 			catch (Exception ex)
 			{
@@ -183,6 +186,8 @@
 			return Out;
 		}
 
+		/// <inheritdoc cref="Base{T}.ToMessagePack(MessagePackSerializerOptions?)"/>
+		/// <exception cref="NumberException"/>
 		public override byte[] ToMessagePack(MessagePackSerializerOptions? opts = null)
 		{
 			var sf = new StackFrame(true);
@@ -198,11 +203,11 @@
 			}
 			catch (MessagePackSerializationException)
 			{
-				throw new BaseException($"This data could not serialized into the MessagePack format", sf);
+				throw new NumberException($"This data could not serialized into the MessagePack format", sf);
 			}
 			catch (Exception ex)
 			{
-				throw new BaseException(ex, sf);
+				throw new NumberException(ex, sf);
 			}
 			finally
 			{
@@ -219,6 +224,8 @@
 			return Out;
 		}
 
+		/// <inheritdoc cref="Base{T}.ToString"/>
+		/// <exception cref="NumberException"/>
 		public override string ToString()
 		{
 			var sf = new StackFrame(true);
@@ -229,6 +236,39 @@
 			try
 			{
 				Out = $"[{Start},{End}]({Step})";
+			}
+			catch (Exception ex)
+			{
+				throw new NumberException(ex, sf);
+			}
+			finally
+			{
+				try
+				{
+					Out ??= base.ToString();
+				}
+				catch (BaseException)
+				{
+					Out = "";
+				}
+			}
+
+			return Out;
+		}
+
+		public string ToArrayString()
+		{
+			var sf = new StackFrame(true);
+			Log.Event(sf);
+
+			string Out = "[";
+
+			try
+			{
+				for (TRange i = Start; i < End; i++)
+					Out += $"{i},";
+
+				Out = Out.TrimEnd(',') + "]";
 			}
 			catch (Exception ex)
 			{

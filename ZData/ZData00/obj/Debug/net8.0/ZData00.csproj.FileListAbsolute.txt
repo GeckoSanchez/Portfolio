@@ -32,3 +32,14 @@ D:\Portfolio\ZData\ZData00\obj\Debug\net8.0\refint\ZData00.dll
 D:\Portfolio\ZData\ZData00\obj\Debug\net8.0\ZData00.pdb
 D:\Portfolio\ZData\ZData00\obj\Debug\net8.0\ZData00.genruntimeconfig.cache
 D:\Portfolio\ZData\ZData00\obj\Debug\net8.0\ref\ZData00.dll
+D:\Portfolio\ZData\ZData00\obj\Debug\net8.0\ZData00.sourcelink.json
+D:\Portfolio\ZData\ZData00\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+D:\Portfolio\ZData\ZData00\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+D:\Portfolio\ZData\ZData00\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\Portfolio\ZData\ZData00\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+D:\Portfolio\ZData\ZData00\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+D:\Portfolio\ZData\ZData00\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+D:\Portfolio\ZData\ZData00\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Portfolio\ZData\ZData00\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Portfolio\ZData\ZData00\bin\Debug\net8.0\Microsoft.JSInterop.dll
+D:\Portfolio\ZData\ZData00\bin\Debug\net8.0\MudBlazor.dll

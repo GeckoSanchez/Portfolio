@@ -8,6 +8,7 @@
 		Base = 0,
 		Action,
 		Attribute,
+		Class,
 		Component,
 		Context,
 		Current,

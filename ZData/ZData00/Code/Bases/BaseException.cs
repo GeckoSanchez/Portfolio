@@ -32,7 +32,7 @@
 		/// <param name="name">The given name of the code-block</param>
 		/// <param name="path">The file path of the code-block</param>
 		/// <param name="line">The line number of the code-block</param>
-		[JsonConstructor, PrimaryConstructor]
+		[JsonConstructor, MainConstructor]
 		public BaseException(Exception? ex, BlockType? btype, ExType extype = ExType.Base, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = 0) : base((ex ?? new()).Message, ex)
 		{
 			Log.Event(new StackFrame(true));

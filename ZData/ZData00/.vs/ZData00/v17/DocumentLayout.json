@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\Portfolio\\ZData\\ZData00\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\code\\bases\\basedevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|solutionrelative:code\\bases\\basedevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\code\\ids\\deviceid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|solutionrelative:code\\ids\\deviceid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\code\\interfaces\\icreatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|solutionrelative:code\\interfaces\\icreatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\code\\ids\\objectid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|solutionrelative:code\\ids\\objectid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\code\\bases\\baseid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|solutionrelative:code\\bases\\baseid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\code\\bases\\basetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|solutionrelative:code\\bases\\basetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\code\\devices\\cellphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|solutionrelative:code\\devices\\cellphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +37,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|d:\\portfolio\\zdata\\zdata00\\code\\values\\moment\\moment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD9EF64-9A0B-49CE-9E0D-C99980E6F8EA}|ZData00.csproj|solutionrelative:code\\values\\moment\\moment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +78,158 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cellphone.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Code\\Devices\\Cellphone.cs",
+              "RelativeDocumentMoniker": "Code\\Devices\\Cellphone.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Code\\Devices\\Cellphone.cs",
+              "RelativeToolTip": "Code\\Devices\\Cellphone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T18:14:02.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.razor",
-              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "Pages\\Index.razor",
-              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Pages\\Index.razor \u2B24",
-              "RelativeToolTip": "Pages\\Index.razor \u2B24",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T21:37:14.138Z",
+              "Title": "BaseDevice.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Code\\Bases\\BaseDevice.cs",
+              "RelativeDocumentMoniker": "Code\\Bases\\BaseDevice.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Code\\Bases\\BaseDevice.cs",
+              "RelativeToolTip": "Code\\Bases\\BaseDevice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T18:14:21.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.razor.cs",
-              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Pages\\Index.razor.cs",
-              "RelativeDocumentMoniker": "Pages\\Index.razor.cs",
-              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Pages\\Index.razor.cs",
-              "RelativeToolTip": "Pages\\Index.razor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAANAAAA",
+              "Title": "DeviceID.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Code\\IDs\\DeviceID.cs",
+              "RelativeDocumentMoniker": "Code\\IDs\\DeviceID.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Code\\IDs\\DeviceID.cs",
+              "RelativeToolTip": "Code\\IDs\\DeviceID.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T21:43:31.709Z",
+              "WhenOpened": "2024-02-22T19:20:01.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ICreatable.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Code\\Interfaces\\ICreatable.cs",
+              "RelativeDocumentMoniker": "Code\\Interfaces\\ICreatable.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Code\\Interfaces\\ICreatable.cs",
+              "RelativeToolTip": "Code\\Interfaces\\ICreatable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T02:52:57.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Moment.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Code\\Values\\Moment\\Moment.cs",
+              "RelativeDocumentMoniker": "Code\\Values\\Moment\\Moment.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Code\\Values\\Moment\\Moment.cs",
+              "RelativeToolTip": "Code\\Values\\Moment\\Moment.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T02:54:46.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAawBwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T05:27:32.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "_Host.cshtml",
               "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Pages\\_Host.cshtml",
               "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
               "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Pages\\_Host.cshtml",
               "RelativeToolTip": "Pages\\_Host.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-21T00:48:18.239Z",
+              "WhenOpened": "2024-02-23T05:51:31.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseType.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Code\\Bases\\BaseType.cs",
+              "RelativeDocumentMoniker": "Code\\Bases\\BaseType.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Code\\Bases\\BaseType.cs",
+              "RelativeToolTip": "Code\\Bases\\BaseType.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAgwEkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:21:07.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseID.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Code\\Bases\\BaseID.cs",
+              "RelativeDocumentMoniker": "Code\\Bases\\BaseID.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Code\\Bases\\BaseID.cs",
+              "RelativeToolTip": "Code\\Bases\\BaseID.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAEwC8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:23:51.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ObjectID.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Code\\IDs\\ObjectID.cs",
+              "RelativeDocumentMoniker": "Code\\IDs\\ObjectID.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Code\\IDs\\ObjectID.cs",
+              "RelativeToolTip": "Code\\IDs\\ObjectID.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAvwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T16:26:12.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.razor.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Pages\\Index.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.razor.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Pages\\Index.razor.cs",
+              "RelativeToolTip": "Pages\\Index.razor.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAADgvx8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T06:07:01.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData00\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData00\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-22T06:08:01.949Z",
               "EditorCaption": ""
             }
           ]

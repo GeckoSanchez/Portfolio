@@ -2,6 +2,7 @@
 {
 	using System.Text;
 	using Enums;
+	using ZData00.IDs;
 
 	public static class Def
 	{
@@ -24,13 +25,16 @@
 		public static string CurrentObjectsDir => $"{CurrentDir}/Objects";
 
 		public static BlockType BType => BlockType.Constructor;
+		public static DeviceType DevType => DeviceType.None;
 		public static LogType LType => LogType.Event;
 		public static ExType ExType => ExType.Base;
+		public static ObjectType OType => ObjectType.Object;
 
 		public static readonly Encoding Encoding = Encoding.Default;
 
 		internal static readonly string ExceptionMessage = new Exception().Message;
 		internal static readonly byte[] MsgPack = [];
+		
 		internal const string JSON = "{}";
 
 		public static Dictionary<Type, byte> TopIDs => new()
@@ -47,6 +51,9 @@
 			{ typeof(RegexCategory), 10 },
 			{ typeof(UserType), 11 },
 		};
+
+		public static readonly byte[] MACAdress = [0, 0, 0, 0, 0, 0];
+		public static readonly byte[] IPArray = System.Net.IPAddress.IPv6Any.GetAddressBytes();
 	}
 
 	public static class Def<T> where T : notnull

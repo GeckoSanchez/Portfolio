@@ -25,7 +25,7 @@
 	/// </param>
 	[JsonObject(MemberSerialization.OptIn)]
 	[method: JsonConstructor]
-	[method: PrimaryConstructor]
+	[method: MainConstructor]
 	public class Log(string? message, LogType ltype, BlockType btype, ExType etype, DateTime logMoment, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) : IDisposable
 	{
 		[JsonProperty("Log message")]
@@ -66,7 +66,7 @@
 			{
 				MethodBase? method = sf.GetMethod();
 				var unlogged = method?.GetCustomAttribute<UnloggedAttribute>();
-				var primconst = method?.GetCustomAttribute<PrimaryConstructorAttribute>();
+				var primconst = method?.GetCustomAttribute<MainConstructorAttribute>();
 
 				if (method?.Name.ToUpper() == "EQUALS")
 					return;

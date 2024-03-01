@@ -16,7 +16,7 @@
 		[JsonProperty]
 		public TNum Maximum { get; protected init; }
 
-		[JsonConstructor, PrimaryConstructor]
+		[JsonConstructor, MainConstructor]
 		public BaseNumber(TNum value, TNum minimum, TNum maximum) : base(TNum.Zero)
 		{
 			var sf = new StackFrame(true);

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6MDyedwoHkY0G6OOnctI6GSYucvq8v95wTxxRjkXtqY0blRylzaTC8D/VJSe6oAuds9nCj8EK2DYYifTcVkotQ==",
+  "success": true,
+  "projectFilePath": "D:\\Portfolio\\ZData\\ZData01\\ZData01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GS\\.nuget\\packages\\libphonenumber-csharp\\8.13.31\\libphonenumber-csharp.8.13.31.nupkg.sha512",
+    "C:\\Users\\GS\\.nuget\\packages\\messagepack\\2.5.140\\messagepack.2.5.140.nupkg.sha512",
+    "C:\\Users\\GS\\.nuget\\packages\\messagepack.annotations\\2.5.140\\messagepack.annotations.2.5.140.nupkg.sha512",
+    "C:\\Users\\GS\\.nuget\\packages\\microsoft.net.stringtools\\17.6.3\\microsoft.net.stringtools.17.6.3.nupkg.sha512",
+    "C:\\Users\\GS\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\GS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

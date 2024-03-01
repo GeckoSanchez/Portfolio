@@ -1,0 +1,16 @@
+﻿@inherits LayoutComponentBase
+
+<ErrorBoundary @key=@("main")>
+	<ChildContent>
+		<main class="p-3">
+			<Header PageType="PageType.Home" ObjectType="null" ID="null" />
+			@Body
+		</main>
+	</ChildContent>
+	<ErrorContent>
+		@{
+			Log.Error(new PageException($"An error occured in the {NavMgr.Uri} page. Sorry for the inconvenience", new System.Diagnostics.StackFrame(true)));
+			NavMgr.NavigateTo("/Home");
+		}
+	</ErrorContent>
+</ErrorBoundary>

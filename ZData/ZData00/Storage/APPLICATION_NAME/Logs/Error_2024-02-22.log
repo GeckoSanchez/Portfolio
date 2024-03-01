@@ -1,0 +1,2 @@
+[01:08:39.684029] This name's ('allo') length ('4') does not fit in the standard range for a name ('[8,64](1)') (Block: 'Index' constructor, Location: 'Pages/Index.razor.cs', Line: #20)
+[01:11:41.461459] This name's ('allo') length ('4') does not fit in the standard range for a name ('[8,64](1)') (Block: 'Index' constructor, Location: 'Pages/Index.razor.cs', Line: #20)
