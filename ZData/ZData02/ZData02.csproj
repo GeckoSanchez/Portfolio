@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+		<AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>
+		<AllowLocalNetworkLoopback>true</AllowLocalNetworkLoopback>
+		<Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Storage\**" />
+    <Content Remove="Storage\**" />
+    <EmbeddedResource Remove="Storage\**" />
+    <None Remove="Storage\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Coinbase" Version="6.0.1" />
+    <PackageReference Include="MessagePack" Version="2.5.140" />
+    <PackageReference Include="MessagePack.Annotations" Version="2.5.140" />
+    <PackageReference Include="MessagePack.ImmutableCollection" Version="2.5.140" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="8.0.0" />
+    <PackageReference Include="System.Runtime.Caching" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Fast.Components.FluentUI">
+      <HintPath>bin\Debug\net7.0\Microsoft.Fast.Components.FluentUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream">
+      <HintPath>bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="MudBlazor">
+      <HintPath>bin\Debug\net7.0\MudBlazor.dll</HintPath>
+    </Reference>
+    <Reference Include="PhoneNumbers">
+      <HintPath>bin\Debug\net7.0\PhoneNumbers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\Portfolio\ZData\ZData02\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\Portfolio\ZData\ZData02\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Code\Objects\" />
+  </ItemGroup>
+
+</Project>

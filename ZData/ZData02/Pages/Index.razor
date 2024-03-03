@@ -1,0 +1,12 @@
+﻿@page "/"
+
+@try
+{
+	<script>
+		console.log(Intl.Collator());
+	</script>
+}
+catch (Exception ex)
+{
+	@($"Exception: {ex.Message}")
+}

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "bOQBgawKT2fuPJ3uoGB4LjiEtFPTakjHjDKUDiqpKRA=",
+  "Source": "ZData02",
+  "BasePath": "_content/ZData02",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ZData02\\wwwroot",
+      "Source": "ZData02",
+      "ContentRoot": "D:\\Portfolio\\ZData\\ZData02\\wwwroot\\",
+      "BasePath": "_content/ZData02",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Portfolio\\ZData\\ZData02\\wwwroot\\css\\site.css",
+      "SourceId": "ZData02",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Portfolio\\ZData\\ZData02\\wwwroot\\",
+      "BasePath": "_content/ZData02",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ]
+}

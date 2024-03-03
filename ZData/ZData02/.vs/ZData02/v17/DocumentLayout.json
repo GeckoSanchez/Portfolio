@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Portfolio\\ZData\\ZData02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\types\\objecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\types\\objecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\bases\\basetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\bases\\basetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObjectType.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Types\\ObjectType.cs",
+              "RelativeDocumentMoniker": "Code\\Types\\ObjectType.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Types\\ObjectType.cs",
+              "RelativeToolTip": "Code\\Types\\ObjectType.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAmwFgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:21:38.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseType.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Bases\\BaseType.cs",
+              "RelativeDocumentMoniker": "Code\\Bases\\BaseType.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Bases\\BaseType.cs",
+              "RelativeToolTip": "Code\\Bases\\BaseType.cs",
+              "ViewState": "AQIAAOYAAAAAAAAAAAASwPkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:25:54.477Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
