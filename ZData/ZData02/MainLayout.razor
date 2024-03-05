@@ -1,3 +1,14 @@
 ﻿@inherits LayoutComponentBase
 
-<main> @Body </main>
+<ErrorBoundary>
+	<ChildContent>
+		<main>
+			@Body
+		</main>
+	</ChildContent>
+	<ErrorContent>
+		@{
+			NavMgr.NavigateTo("/error", true);
+		}
+	</ErrorContent>
+</ErrorBoundary>

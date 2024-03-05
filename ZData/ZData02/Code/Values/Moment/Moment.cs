@@ -1,12 +1,14 @@
 ﻿namespace ZData02.Values
 {
 	using System.Collections.Generic;
+	using System.ComponentModel.DataAnnotations;
 	using System.Diagnostics;
 	using System.Numerics;
 	using Actions;
 	using Attributes;
 	using Bases;
 	using Exceptions;
+	using MessagePack;
 	using Newtonsoft.Json;
 	using ZData02.IDs;
 
@@ -16,10 +18,21 @@
 		[JsonProperty]
 		public new DateTime Data { get => base.Data; protected set => base.Data = value; }
 
+		/// <summary>
+		/// Represents the smallest possible value of <see cref="Moment"/>. This property is get-only.
+		/// </summary>
 		public static Moment MinValue => new(DateTime.MinValue);
+
+		/// <summary>
+		/// Represents the largest possible value of <see cref="Moment"/>. This property is get-only.
+		/// </summary>
 		public static Moment MaxValue => new(DateTime.MaxValue);
 
-		public static Moment Now => new(DateTime.Now);
+		/// <summary>
+		/// Gets a <see cref="Moment"/> object that is set to the current <see cref="Date"/> and <see cref="Time"/>
+		/// on this computer, expressed as the local time.
+		/// </summary>
+		public static Moment Now => new(DateTime.Now.ToLocalTime());
 
 		/// <summary>
 		/// Primary constructor for the <see cref="Moment"/> class
@@ -188,12 +201,60 @@
 			return Out ?? 0;
 		}
 
+		/// <inheritdoc cref="BaseData{TData}.ToMessagePack(MessagePackSerializerOptions?)"/>
+		/// <exception cref="MomentException"/>
+		public override byte[] ToMessagePack(MessagePackSerializerOptions? opts = null)
+		{
+			var sf = new StackFrame(true);
+			Log.Event(sf);
+
+			byte[]? Out = null;
+
+			try
+			{
+				Out = MessagePackSerializer.Serialize(Data.Year, opts);
+				Out = MessagePackSerializer.Serialize(Data.Month, opts);
+				Out = MessagePackSerializer.Serialize(Data.Day, opts);
+				Out = MessagePackSerializer.Serialize(Data.Hour, opts);
+				Out = MessagePackSerializer.Serialize(Data.Minute, opts);
+				Out = MessagePackSerializer.Serialize(Data.Second, opts);
+				Out = MessagePackSerializer.Serialize(Data.Millisecond, opts);
+			}
+			catch (MessagePackSerializationException ex)
+			{
+				throw new MomentException(new Exception($"This data could not be serialized into the MessagePack format", ex), sf);
+			}
+			catch (Exception ex)
+			{
+				throw new MomentException(ex, sf);
+			}
+			finally
+			{
+				try
+				{
+					Out ??= base.ToMessagePack(opts);
+				}
+				catch (Exception)
+				{
+					Out = [];
+				}
+			}
+
+			return Out;
+		}
+
+		public override IEnumerable<ValidationResult> Validate(ValidationContext? validationContext = null)
+		{
+
+			return base.Validate(validationContext);
+		}
+
 		public static bool operator >(Moment left, DateTime right) => left.Data > right;
 		public static bool operator >=(Moment left, DateTime right) => left.Data >= right;
 		public static bool operator <(Moment left, DateTime right) => left.Data < right;
 		public static bool operator <=(Moment left, DateTime right) => left.Data <= right;
-		public static bool operator ==(Moment? left, DateTime? right) => left is not null && right is not null && EqualityComparer<DateTime>.Default.Equals(left.Data, right ?? DateTime.MinValue);
-		public static bool operator !=(Moment? left, DateTime? right) => !(left == right);
+		public static bool operator ==(Moment? left, DateTime right) => left is not null && EqualityComparer<DateTime>.Default.Equals(left.Data, right);
+		public static bool operator !=(Moment? left, DateTime right) => !(left == right);
 
 		public static bool operator >(Moment left, Date right) => left.Data > right.ToMoment().Data;
 		public static bool operator >=(Moment left, Date right) => left.Data >= right.ToMoment().Data;

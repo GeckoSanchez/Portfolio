@@ -2,6 +2,7 @@
 {
 	using Categories;
 	using Values;
+	using ZData02.Enums;
 
 	public interface ICreatable : IProperty
 	{
@@ -10,7 +11,6 @@
 		/// <summary>
 		/// Function to create a *<c>NEW</c>* save file for this <see cref="ICreatable"/>
 		/// </summary>
-		/// <remarks>Both a JSON and a <see cref="MessagePack"/> file will be created by default</remarks>
-		void Create(bool json = true, bool msgpack = true);
+		void Create();
 	}
 }

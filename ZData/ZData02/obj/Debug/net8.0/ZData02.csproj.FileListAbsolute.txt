@@ -42,3 +42,7 @@ D:\Portfolio\ZData\ZData02\obj\Debug\net8.0\refint\ZData02.dll
 D:\Portfolio\ZData\ZData02\obj\Debug\net8.0\ZData02.pdb
 D:\Portfolio\ZData\ZData02\obj\Debug\net8.0\ZData02.genruntimeconfig.cache
 D:\Portfolio\ZData\ZData02\obj\Debug\net8.0\ref\ZData02.dll
+D:\Portfolio\ZData\ZData02\bin\Debug\net8.0\Coinbase.dll
+D:\Portfolio\ZData\ZData02\bin\Debug\net8.0\Flurl.dll
+D:\Portfolio\ZData\ZData02\bin\Debug\net8.0\Flurl.Http.dll
+D:\Portfolio\ZData\ZData02\bin\Debug\net8.0\TextCopy.dll

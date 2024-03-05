@@ -1,0 +1,5 @@
+[12:09:39.651566] <Page> Unable to cast object of type 'System.Int32' to type 'System.String'. (Location: 'Pages/Index.razor.cs', Line: #27)
+[22:26:11.521492] <Page> Value cannot be null. (Parameter 'provider') (Location: 'Pages/Index.razor.cs', Line: #25)
+[22:45:22.038906] <Page> Object reference not set to an instance of an object. (Location: 'Pages/Index.razor.cs', Line: #73)
+[22:45:28.911365] <Page> Value cannot be null. (Parameter 'provider') (Location: 'Pages/Index.razor.cs', Line: #28)
+[22:45:29.112605] <Page> The page requires an ID to be provided (Location: 'Pages/Index.razor.cs', Line: #50)

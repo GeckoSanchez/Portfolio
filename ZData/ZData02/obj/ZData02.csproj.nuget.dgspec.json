@@ -79,6 +79,10 @@
             "System.Runtime.Caching": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "TextCopy": {
+              "target": "Package",
+              "version": "[6.2.1, )"
             }
           },
           "imports": [

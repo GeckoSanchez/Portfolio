@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "D:\\Portfolio\\ZData\\ZData02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\types\\objecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\types\\objecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\bases\\basetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\bases\\basetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\pages\\error.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:pages\\error.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\actions\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\actions\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\bases\\baseobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\bases\\baseobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\values\\moment\\moment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\values\\moment\\moment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\bases\\basedevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\bases\\basedevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\categories\\idevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\categories\\idevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\bases\\baselink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\bases\\baselink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\enums\\objectkind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\enums\\objectkind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\bases\\baseidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\bases\\baseidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|d:\\portfolio\\zdata\\zdata02\\code\\categories\\iobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0F9F2E-EE06-449C-9201-BB8430211E51}|ZData02.csproj|solutionrelative:code\\categories\\iobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +66,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 17,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseObject.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Bases\\BaseObject.cs",
+              "RelativeDocumentMoniker": "Code\\Bases\\BaseObject.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Bases\\BaseObject.cs",
+              "RelativeToolTip": "Code\\Bases\\BaseObject.cs",
+              "ViewState": "AQIAAA0BAAAAAAAAAAAAwB0BAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T17:43:39.996Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IObject.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Categories\\IObject.cs",
+              "RelativeDocumentMoniker": "Code\\Categories\\IObject.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Categories\\IObject.cs",
+              "RelativeToolTip": "Code\\Categories\\IObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T17:23:53.987Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -38,28 +114,158 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ObjectType.cs",
-              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Types\\ObjectType.cs",
-              "RelativeDocumentMoniker": "Code\\Types\\ObjectType.cs",
-              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Types\\ObjectType.cs",
-              "RelativeToolTip": "Code\\Types\\ObjectType.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAmwFgAAAAFAAAA",
+              "DocumentIndex": 10,
+              "Title": "BaseLink.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Bases\\BaseLink.cs",
+              "RelativeDocumentMoniker": "Code\\Bases\\BaseLink.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Bases\\BaseLink.cs",
+              "RelativeToolTip": "Code\\Bases\\BaseLink.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAArwFgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T20:21:38.092Z",
+              "WhenOpened": "2024-03-05T02:09:38.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseIdentity.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Bases\\BaseIdentity.cs",
+              "RelativeDocumentMoniker": "Code\\Bases\\BaseIdentity.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Bases\\BaseIdentity.cs",
+              "RelativeToolTip": "Code\\Bases\\BaseIdentity.cs",
+              "ViewState": "AQIAAOAAAAAAAAAAAAArwPcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T02:18:08.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ObjectKind.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Enums\\ObjectKind.cs",
+              "RelativeDocumentMoniker": "Code\\Enums\\ObjectKind.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Enums\\ObjectKind.cs",
+              "RelativeToolTip": "Code\\Enums\\ObjectKind.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T02:34:36.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseDevice.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Bases\\BaseDevice.cs",
+              "RelativeDocumentMoniker": "Code\\Bases\\BaseDevice.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Bases\\BaseDevice.cs",
+              "RelativeToolTip": "Code\\Bases\\BaseDevice.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwC4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T02:40:15.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDevice.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Categories\\IDevice.cs",
+              "RelativeDocumentMoniker": "Code\\Categories\\IDevice.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Categories\\IDevice.cs",
+              "RelativeToolTip": "Code\\Categories\\IDevice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T02:42:32.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Moment.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Values\\Moment\\Moment.cs",
+              "RelativeDocumentMoniker": "Code\\Values\\Moment\\Moment.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Values\\Moment\\Moment.cs",
+              "RelativeToolTip": "Code\\Values\\Moment\\Moment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T03:00:59.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Log.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Actions\\Log.cs",
+              "RelativeDocumentMoniker": "Code\\Actions\\Log.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Actions\\Log.cs",
+              "RelativeToolTip": "Code\\Actions\\Log.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAADgv6QAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T03:01:58.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.razor.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Pages\\Index.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.razor.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Pages\\Index.razor.cs",
+              "RelativeToolTip": "Pages\\Index.razor.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAA5wHAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T03:15:27.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MainLayout.razor",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\MainLayout.razor",
+              "RelativeToolTip": "MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T03:36:50.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.razor",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "Pages\\Error.razor",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Pages\\Error.razor",
+              "RelativeToolTip": "Pages\\Error.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T03:39:10.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaseType.cs",
-              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Code\\Bases\\BaseType.cs",
-              "RelativeDocumentMoniker": "Code\\Bases\\BaseType.cs",
-              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Code\\Bases\\BaseType.cs",
-              "RelativeToolTip": "Code\\Bases\\BaseType.cs",
-              "ViewState": "AQIAAOYAAAAAAAAAAAASwPkAAAADAAAA",
+              "Title": "Error.razor.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Pages\\Error.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Error.razor.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Pages\\Error.razor.cs",
+              "RelativeToolTip": "Pages\\Error.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T20:25:54.477Z",
+              "WhenOpened": "2024-03-05T03:39:14.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Portfolio\\ZData\\ZData02\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Portfolio\\ZData\\ZData02\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T03:39:37.062Z",
               "EditorCaption": ""
             }
           ]

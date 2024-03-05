@@ -1,6 +1,7 @@
 ﻿namespace ZData02.Bases
 {
 	using System.Collections.Generic;
+	using System.ComponentModel.DataAnnotations;
 	using System.Diagnostics;
 	using System.Diagnostics.CodeAnalysis;
 	using Actions;
@@ -10,7 +11,7 @@
 	using Newtonsoft.Json;
 
 	[JsonObject(MemberSerialization.OptIn)]
-	public class BaseIdentity<TEnum> : BaseData<BaseID<TEnum>>, IEquatable<BaseIdentity<TEnum>?> where TEnum : struct, Enum
+	public class BaseIdentity<TEnum> : BaseData<BaseID<TEnum>>, IEquatable<BaseIdentity<TEnum>?>, IValidatableObject where TEnum : struct, Enum
 	{
 		/// <summary>
 		/// The base name for this Identity
@@ -27,8 +28,8 @@
 		/// <summary>
 		/// The base ID for this Identity
 		/// </summary>
-		[JsonProperty("ID")]
-		public new BaseID<TEnum> Data => base.Data;
+		[JsonProperty(nameof(ID))]
+		public BaseID<TEnum> ID => base.Data;
 
 		/// <summary>
 		/// Primary constructor for the <see cref="BaseIdentity{TEnum}"/> class
@@ -183,7 +184,7 @@
 
 			try
 			{
-				Out = $"{Name} {Type.ToString().ToLower()} (#{Data})";
+				Out = $"{Name} {Type.ToString().ToLower()} (#{Data.ToString()[..16]})";
 			}
 			catch (Exception ex)
 			{
@@ -237,6 +238,18 @@
 			}
 
 			return Out;
+		}
+
+		public override IEnumerable<ValidationResult> Validate(ValidationContext? validationContext = null)
+		{
+			foreach (var i in Enum.GetNames<TEnum>())
+			{
+				if (Name.Data.Contains(i))
+				{
+					yield return new ValidationResult($"The given name {Format.ExcValue(Name.Data)} contains the following reserved keyword: {i}", [nameof(Name)]);
+					break;
+				}
+			}
 		}
 
 		public static bool operator ==(BaseIdentity<TEnum>? left, BaseIdentity<TEnum>? right) => EqualityComparer<BaseIdentity<TEnum>>.Default.Equals(left, right);
