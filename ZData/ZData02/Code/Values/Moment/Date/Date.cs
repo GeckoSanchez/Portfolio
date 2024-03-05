@@ -158,7 +158,7 @@
 
 		/// <inheritdoc cref="BaseData{DateOnly}.ToJSON(Formatting)"/>
 		/// <exception cref="DateException"/>
-		public override string ToJSON(Formatting formatting = Formatting.Indented)
+		public override string ToJSON(Formatting? formatting = null)
 		{
 			var sf = new StackFrame(true);
 			Log.Event(sf);
@@ -167,7 +167,7 @@
 
 			try
 			{
-				Out = JsonConvert.SerializeObject(this, formatting);
+				Out = JsonConvert.SerializeObject(this, formatting ?? Def.JSONFormatting);
 			}
 			catch (Exception ex)
 			{

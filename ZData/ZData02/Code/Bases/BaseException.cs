@@ -48,7 +48,7 @@
 		/// </summary>
 		/// <param name="sf">The given <see cref="StackFrame"/> object</param>
 		/// <inheritdoc cref="BaseException(Exception?, BlockKind?, ExceptKind, string, string, int)"/>
-		public BaseException(Exception? ex, StackFrame sf, ExceptKind exceptiontype = ExceptKind.Base, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = 0) : this(ex, Get.BlockTypeOrDefault(sf, Def.BlockKind), exceptiontype, sf.GetMethod()!.Name ?? name, sf.GetFileName() ?? path, sf.GetFileLineNumber() != 0 ? sf.GetFileLineNumber() : line) => Log.Event(new StackFrame(true));
+		public BaseException(Exception? ex, StackFrame sf, ExceptKind exceptiontype = ExceptKind.Base, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = 0) : this(ex, Get.BlockTypeOrDefault(sf, Def.BlockKind), exceptiontype, sf.GetMethod()!.Name ?? name, sf.GetFileName() ?? path, line) => Log.Event(new StackFrame(true));
 
 		/// <inheritdoc cref="BaseException(Exception?, StackFrame, ExceptKind, string, string, int)"/>
 		/// <param name="message">The given message</param>

@@ -50,7 +50,7 @@
 		public static implicit operator Millisecond(Time v) => new(v);
 		public static implicit operator Millisecond(Moment v) => new(v);
 
-		public override string ToJSON(Formatting formatting = Formatting.Indented)
+		public override string ToJSON(Formatting? formatting = null)
 		{
 			var sf = new StackFrame(true);
 			Log.Event(sf);
@@ -59,7 +59,7 @@
 
 			try
 			{
-				Out = JsonConvert.SerializeObject(this, formatting);
+				Out = JsonConvert.SerializeObject(this, formatting ?? Def.JSONFormatting);
 			}
 			catch (Exception ex)
 			{

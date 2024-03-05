@@ -48,7 +48,7 @@
 		[JsonProperty("Log type")]
 		public LogKind LogType { get; private set; } = ltype;
 
-		[JsonProperty("Log date & time")]
+		[JsonProperty("Log moment")]
 		public DateTime LogMoment { get; private set; } = logMoment;
 
 		public Log([CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) : this(null, Def.LogKind, Def.BlockKind, Def.ExceptKind, DateTime.Now, name, path, line) { Write(); }
@@ -59,6 +59,11 @@
 
 		public Log(Exception ex, BlockKind btype, ExceptKind etype, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) : this($"{ex.Message}", LogKind.Exception, btype, etype, DateTime.Now, name, path, line) { Write(); }
 
+		/// <summary>
+		/// Function to record a new event log
+		/// </summary>
+		/// <param name="sf">A stackframe captured at the top of the function</param>
+		/// <param name="path">...</param>
 		public static void Event(StackFrame sf, [CallerFilePath] string path = "")
 		{
 			try
@@ -84,14 +89,41 @@
 			}
 		}
 
-		public static void Event(string message, BlockKind btype, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) => new Log(message, LogKind.Event, btype, Def.ExceptKind, DateTime.Now, name, path, line).Write();
-		public static void Event(string message, ExceptKind etype = ExceptKind.Base, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) => new Log(message, LogKind.Event, Def.BlockKind, etype, DateTime.Now, name, path, line).Write();
+		/// <inheritdoc cref="Event(StackFrame, string)"/>
+		/// <param name="message">A custom message for the log</param>
+		/// <param name="bkind">The kind of code-block in which the event occurred</param>
+		/// <param name="exkind">The kind of exception in which the event occurred</param>
+		/// <param name="name">...</param>
+		/// <param name="path">...</param>
+		/// <param name="line">...</param>
+		public static void Event(string message, BlockKind bkind, ExceptKind exkind = ExceptKind.Base, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) => new Log(message, LogKind.Event, bkind, exkind, DateTime.Now, name, path, line).Write();
 
+		/// <summary>
+		/// Function to record a new error log
+		/// </summary>
+		/// <param name="bkind">The kind of code-block in which the event occurred</param>
+		/// <param name="name">...</param>
+		/// <param name="path">...</param>
+		/// <param name="line">...</param>
 		public static void Error(BlockKind btype, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) => new Log("", LogKind.Error, btype, Def.ExceptKind, DateTime.Now, name, path, line).Write();
+
+		/// <inheritdoc cref="Error(BlockKind, string, string, int)"/>
+		/// <param name="message">A custom message for the log</param>
 		public static void Error(string message, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) => new Log(message, LogKind.Error, Def.BlockKind, Def.ExceptKind, DateTime.Now, name, path, line).Write();
+
+		/// <inheritdoc cref="Error(BlockKind, string, string, int)"/>
+		/// <param name="message">A custom message for the log</param>
 		public static void Error(string message, BlockKind btype, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) => new Log(message, LogKind.Error, btype, Def.ExceptKind, DateTime.Now, name, path, line).Write();
+
+		/// <inheritdoc cref="Error(BlockKind, string, string, int)"/>
+		/// <param name="ex">The <see cref="System.Exception"/> used to provide the message for the log</param>
 		public static void Error(Exception ex, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) => new Log(ex.Message, LogKind.Error, Def.BlockKind, Def.ExceptKind, DateTime.Now, name, path, line).Write();
+
+		/// <inheritdoc cref="Error(System.Exception, string, string, int)"/>
 		public static void Error(BaseException ex) => new Log(ex.Message, LogKind.Error, ex.BlockType, ex.ExceptionType, DateTime.Now, ex.Name, ex.Path, ex.Line).Write();
+
+		/// <inheritdoc cref="Error(System.Exception, string, string, int)"/>
+		/// <param name="sf">A stackframe captured at the top of the function</param>
 		public static void Error(Exception ex, StackFrame sf, [CallerFilePath] string path = "")
 		{
 			try
@@ -117,6 +149,8 @@
 			}
 		}
 
+		/// <inheritdoc cref="Error(Exception, StackFrame, string)"/>
+		/// <param name="method">The information that the code can provide about a given method/function</param>
 		public static void Error(Exception ex, StackFrame sf, MethodBase method)
 		{
 			try
@@ -132,7 +166,7 @@
 			}
 		}
 
-		public static void Error(Exception ex, BlockKind btype, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) => new Log(ex.Message, LogKind.Error, btype, Def.ExceptKind, DateTime.Now, name, path, line).Write();
+		public static void Error(Exception ex, BlockKind bkind, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) => new Log(ex.Message, LogKind.Error, bkind, Def.ExceptKind, DateTime.Now, name, path, line).Write();
 
 		public static void Exception(BaseException ex) => new Log(ex.Message, LogKind.Exception, ex.BlockType, ex.ExceptionType, DateTime.Now, ex.Name, ex.Path, ex.Line).Write();
 		public static void Exception(Exception ex, BlockKind btype, [CallerMemberName] string name = "", [CallerFilePath] string path = "", [CallerLineNumber] int line = default) => new Log(ex.Message, LogKind.Exception, btype, Def.ExceptKind, DateTime.Now, name, path, line).Write();
@@ -151,14 +185,14 @@
 			lock (this)
 			{
 				FileStream? fs = null;
-				FileStream? backFS = null;
+				FileStream? backupFS = null;
 				StreamWriter? sw = null;
 				StreamReader? sr = null;
 				DirectoryInfo? di = null;
 
 				try
 				{
-					if (Line <= 1 || BType == BlockKind.Equals_Operator || Name.Equals("EQUALS", StringComparison.InvariantCultureIgnoreCase))
+					if (Line <= 1 || BType == BlockKind.Equals_Operator || BType == BlockKind.Not_Equals_Operator || Name.Equals("EQUALS", StringComparison.InvariantCultureIgnoreCase))
 						return;
 
 					string Out = $"[{LogMoment:HH:mm:ss.ffffff}] ";
@@ -253,9 +287,9 @@
 						while (backupFI.Exists)
 							backupFI = new($"{di.FullName}/{LogType}_{DateTime.Now:yyyy-MM-dd}_{logNb++}.log");
 
-						backFS = new(backupFI.FullName, FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.ReadWrite);
+						backupFS = new(backupFI.FullName, FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.ReadWrite);
 
-						using (sw = new(backFS, Def.Encoding))
+						using (sw = new(backupFS, Def.Encoding))
 						{
 							sw.WriteLine(text);
 							sw.Flush();
@@ -263,7 +297,7 @@
 							sw.Dispose();
 						}
 
-						backFS.Dispose();
+						backupFS.Dispose();
 
 						di = new DirectoryInfo(Def.LogsDir);
 						sw = File.CreateText($"{di.FullName}/{LogType}_{DateTime.Now:yyyy-MM-dd}.log");
@@ -283,7 +317,7 @@
 					if (sr != null && sr.BaseStream.CanRead)
 						sr.Dispose();
 					fs?.Dispose();
-					backFS?.Dispose();
+					backupFS?.Dispose();
 					di = null;
 				}
 

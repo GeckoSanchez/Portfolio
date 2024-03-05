@@ -15,6 +15,7 @@
 		/// <summary>
 		/// The base <see cref="string"/> data for this datum
 		/// </summary>
+		[JsonProperty]
 		public new string Data { get => base.Data; protected set => base.Data = value; }
 
 		/// <summary>

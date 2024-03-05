@@ -1,17 +1,19 @@
 ﻿namespace ZData02.Bases
 {
 	using System.Collections.Generic;
+	using System.ComponentModel.DataAnnotations;
 	using System.Diagnostics;
 	using System.Diagnostics.CodeAnalysis;
 	using System.Globalization;
 	using Actions;
 	using Attributes;
 	using Categories;
+	using Flurl.Util;
 	using MessagePack;
 	using Newtonsoft.Json;
 
 	[JsonObject(MemberSerialization.OptIn)]
-	public class BaseData<TData> : IEquatable<BaseData<TData>?>, IEqualityComparer<TData>, IBase<TData>
+	public class BaseData<TData> : IEquatable<BaseData<TData>?>, IEqualityComparer<TData>, IValidatableObject, IBase<TData>
 		where TData : notnull
 	{
 		/// <summary>
@@ -292,6 +294,15 @@
 			}
 
 			return Out ?? 0;
+		}
+
+		public virtual IEnumerable<ValidationResult> Validate(ValidationContext? validationContext = null)
+		{
+			var sf = new StackFrame(true);
+			Log.Event(sf);
+			validationContext!.CreateScope().ServiceProvider.ToInvariantString();
+			if (string.IsNullOrWhiteSpace($"{Data}"))
+				yield return new ValidationResult($"The given data {Format<TData>.ExcValue(Data)} was found to be null", [nameof(Data)]);
 		}
 
 		public static bool operator ==(BaseData<TData>? left, BaseData<TData>? right) => EqualityComparer<BaseData<TData>>.Default.Equals(left, right);

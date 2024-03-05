@@ -20,7 +20,7 @@
 		/// <param name="data">The ID data</param>
 		/// <exception cref="IDException"/>
 		[JsonConstructor, MainConstructor]
-		private ObjectID([NotNull] UInt128 data) : base(data) => Log.Event(new StackFrame(true));
+		internal ObjectID([NotNull] UInt128 data) : base(data) => Log.Event(new StackFrame(true));
 
 		/// <summary>
 		/// Empty constructor for the <see cref="ObjectID"/> class

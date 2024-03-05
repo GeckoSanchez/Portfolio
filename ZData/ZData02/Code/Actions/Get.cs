@@ -8,6 +8,7 @@
 	using Enums;
 	using Exceptions;
 	using Newtonsoft.Json;
+	using ZData02.Identities;
 
 	public static class Get
 	{
@@ -687,6 +688,12 @@
 			return Out;
 		}
 
+		/// <summary>
+		/// Function to build a regular expression with the + modifier at the end of it
+		/// </summary>
+		/// <param name="categories">The categories to build the regular expression</param>
+		/// <returns>A regular expression</returns>
+		/// <exception cref="ActionException"/>
 		[Unlogged]
 		public static Regex Regex(params RegexCategory[] categories)
 		{
@@ -812,6 +819,13 @@
 			return Out;
 		}
 
+		/// <summary>
+		/// Function to build a regular expression with a fixed length
+		/// </summary>
+		/// <param name="range">A range of lengths for the regular expression</param>
+		/// <param name="categories">The categories to build the regular expression</param>
+		/// <returns>A regular expression</returns>
+		/// <exception cref="ActionException"/>
 		public static Regex Regex(Range range, params RegexCategory[] categories)
 		{
 			var sf = new StackFrame(true);
@@ -936,6 +950,13 @@
 			return Out;
 		}
 
+		/// <summary>
+		/// Function to build a regular expression with a fixed length
+		/// </summary>
+		/// <param name="length">The specified length</param>
+		/// <param name="categories">The categories to build the regular expression</param>
+		/// <returns>A regular expression</returns>
+		/// <exception cref="ActionException"/>
 		public static Regex Regex(int length, params RegexCategory[] categories)
 		{
 			var sf = new StackFrame(true);
@@ -1055,6 +1076,39 @@
 			finally
 			{
 				Out ??= new(@"[\w]*");
+			}
+
+			return Out;
+		}
+
+		public static string FullPath(BaseObject obj, bool isJSON = true)
+		{
+			var sf = new StackFrame(true);
+			Log.Event(sf);
+
+			string? Out = null;
+				DirectoryInfo? dir;
+
+			try
+			{
+				if (isJSON)
+				{
+					dir = Directory.CreateDirectory($"{Def.ObjectsDir}/JSON/{obj.Identity.Type}s");
+					Out = $"{dir.FullName}/{obj.Identity.Data.ToString()[..16]}.json";
+				}
+				else
+				{
+					dir = Directory.CreateDirectory($"{Def.ObjectsDir}/MSGPACK/{obj.Identity.Type}s");
+					Out = $"{dir.FullName}/{obj.Identity.Data.ToString()[..16]}.msgpack";
+				}
+			}
+			catch (Exception ex)
+			{
+				throw new ActionException(ex, sf);
+			}
+			finally
+			{
+				Out ??= $"{Def.MainDir}/txt.txt";
 			}
 
 			return Out;
